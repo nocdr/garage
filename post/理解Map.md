@@ -2,7 +2,7 @@
 
 Map的基本思想是它维护的是键值对，可以使用键来查找值。Java标准库中包含了Map和几种实现，包括`HashMap`,`TreeMap`, `LinkedHashMap`, `WeakHashMap`, `ConcurrentHashMap`, `IdentityHashMap`。它们都实现了Map接口，但是行为特性各不相同，表现在效率，键值对的保存及呈现次序、对象的保存周期、如何在多线程程序中工作和判定`key`等价的策略等方面。
 
-一下是一个极简的map实现
+以下是一个极简的map实现
 
 ```java
 package org.nocoder.map;
