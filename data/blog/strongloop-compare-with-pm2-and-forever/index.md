@@ -3,7 +3,6 @@ title: StrongLoop compare with pm2 and Forever
 date: "2018-06-12 11:02:30.931+01"
 ---
 
-
 | Feature                          | StrongLoop Process Manager                               | pm2                                                     | Forever                    |
 | -------------------------------- | -------------------------------------------------------- | ------------------------------------------------------- | -------------------------- |
 | Run app locally                  | slc start                                                | pm2 start app.js -name foo                              | forever start app.js       |
