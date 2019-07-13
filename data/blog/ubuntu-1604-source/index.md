@@ -3,12 +3,14 @@ title: 修改ubuntu1604源
 date: "2018-06-05 08:27:38.676+01"
 ---
 修改ubuntu1604源
-```
+
+```shell
 sudo vim /etc/apt/source.list
 ```
 
 ### 阿里云
-```
+
+```shel
 # deb cdrom:[Ubuntu 16.04 LTS _Xenial Xerus_ - Release amd64 (20160420.1)]/ xenial main restricted
 deb-src http://archive.ubuntu.com/ubuntu xenial main restricted #Added by software-properties
 deb http://mirrors.aliyun.com/ubuntu/ xenial main restricted
