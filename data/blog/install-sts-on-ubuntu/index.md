@@ -3,7 +3,7 @@ title: 在Ubuntu上安装Spring Tool Suite
 date: "2019-07-25 17:42:59"
 ---
 
-Step 1: 下载 Spring Tool Suite for Linux: http://spring.io/tools/sts/all
+Step 1: 下载 Spring Tool Suite for Linux: https://spring.io/tools
 
 Step 2: 解压到`/usr/local/sts/sts-4.3.1.RELEASE/SpringToolSuite4`
 
