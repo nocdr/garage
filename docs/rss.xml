@@ -1,7 +1,435 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Jason Yang's Blog]]></title><description><![CDATA[Jason Yang's personal blog based on Gatsby.]]></description><link>http://nocoder.org</link><generator>RSS for Node</generator><lastBuildDate>Mon, 27 May 2019 10:30:12 GMT</lastBuildDate><item><title><![CDATA[Gastby 入门]]></title><description><![CDATA[使用 Gatsby starters基于 hello-world starter 创建一个 Gatsby 网站项目创建完后，进入 目录，执行  来启动网站认识 Gatsby 的页面在编辑器中打开，该文件中的代码表示创建了一个组件，该组件包含一个div和字符串”hello…]]></description><link>http://nocoder.org/gatsby-learning-01/</link><guid isPermaLink="false">http://nocoder.org/gatsby-learning-01/</guid><pubDate>Mon, 27 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;使用 Gatsby starters&lt;/h3&gt;
-&lt;p&gt;基于 hello-world starter 创建一个 Gatsby 网站&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Nocoder Blog]]></title><description><![CDATA[nocoder blog]]></description><link>http://nocoder.org</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 03 Oct 2019 15:35:52 GMT</lastBuildDate><item><title><![CDATA[软件造价]]></title><description><![CDATA[…]]></description><link>http://nocoder.org/sofware-cost-evalution/</link><guid isPermaLink="false">http://nocoder.org/sofware-cost-evalution/</guid><content:encoded>&lt;p&gt;软件估算：是采用一定的方法，对软件系统的规模、工作量、工期、成本等指标的预估，它是软件度量过程的一个环节。&lt;/p&gt;
+&lt;p&gt;软件度量：是对软件开发过程中涉及到的活动，进行数据定义、估算、收集及分析的持续性定量化过程，目的在于对过程加以理解、预测、评估、控制和改善。&lt;/p&gt;
+&lt;p&gt;成本度量：对软件开发成本的预计值进行估算或对实际值进行测量、分析的过程。&lt;/p&gt;
+&lt;p&gt;基于行业数据建立&lt;strong&gt;调整因子&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1、范围、需求蔓延&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;考虑隐含需求及变更&lt;/li&gt;
+&lt;li&gt;在不同阶段有不同取值1.39/1.22/1.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2、软件因素&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;质量要求&lt;/li&gt;
+&lt;li&gt;应用类型&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;3、开发因素&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;团队背景&lt;/li&gt;
+&lt;li&gt;开发语言&lt;/li&gt;
+&lt;li&gt;复用程度&lt;/li&gt;
+&lt;li&gt;管理能力&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;常用估算方法&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;经验法&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;基于WBS的软件估算&lt;/li&gt;
+&lt;li&gt;DELPHI/加权平均&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;类推法&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;将&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;类比法&lt;/li&gt;
+&lt;li&gt;方程法&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Ubuntu 18.04 安装 Redis Desktop Manager]]></title><description><![CDATA[下载 redis-desktop-manager0.8.3-120amd64.deb，链接: https://pan.baidu.com/s/1U_bFloEEV5ERtZ-Wv5yj8g 提取码: ufjp 执行进行安装； 如上所示，会提示缺少依赖，到 https://pkgs…]]></description><link>http://nocoder.org/install-redis-desktop-manager-on-ubuntu/</link><guid isPermaLink="false">http://nocoder.org/install-redis-desktop-manager-on-ubuntu/</guid><pubDate>Tue, 20 Aug 2019 00:00:00 GMT</pubDate><content:encoded>&lt;ol&gt;
+&lt;li&gt;下载 redis-desktop-manager&lt;em&gt;0.8.3-120&lt;/em&gt;amd64.deb，链接: &lt;a href=&quot;https://pan.baidu.com/s/1U_bFloEEV5ERtZ-Wv5yj8g&quot;&gt;https://pan.baidu.com/s/1U_bFloEEV5ERtZ-Wv5yj8g&lt;/a&gt; 提取码: ufjp&lt;/li&gt;
+&lt;li&gt;执行&lt;code class=&quot;language-text&quot;&gt;sudo dpkg -i redis-desktop-manager_0.8.3-120_amd64.deb&lt;/code&gt;进行安装；&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;jason@jason-Latitude-5490:~/Downloads$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; dpkg -i redis-desktop-manager_0.8.3-120_amd64.deb 
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;sudo&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; jason 的密码： 
+正在选中未选择的软件包 redis-desktop-manager。
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;正在读取数据库 &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. 系统当前共安装有 &lt;span class=&quot;token number&quot;&gt;276640&lt;/span&gt; 个文件和目录。&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+正准备解包 redis-desktop-manager_0.8.3-120_amd64.deb  &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+正在解包 redis-desktop-manager &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.8&lt;/span&gt;.3-120&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+dpkg: 依赖关系问题使得 redis-desktop-manager 的配置工作不能继续：
+ redis-desktop-manager 依赖于 zlibc；然而：
+  未安装软件包 zlibc。
+ redis-desktop-manager 依赖于 libpng12-0；然而：
+  未安装软件包 libpng12-0。
+ redis-desktop-manager 依赖于 libicu52；然而：
+  未安装软件包 libicu52。
+ redis-desktop-manager 依赖于 libssh2-1；然而：
+  未安装软件包 libssh2-1。
+
+dpkg: 处理软件包 redis-desktop-manager &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;--install&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;时出错：
+ 依赖关系问题 - 仍未被配置
+正在处理用于 gnome-menus &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3.13&lt;/span&gt;.3-11ubuntu1.1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 的触发器 &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+正在处理用于 desktop-file-utils &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.23&lt;/span&gt;-1ubuntu3.18.04.2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 的触发器 &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+正在处理用于 mime-support &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;.60ubuntu1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 的触发器 &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+在处理时有错误发生：
+ redis-desktop-manager&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;如上所示，会提示缺少依赖，到 &lt;a href=&quot;https://pkgs.org/&quot;&gt;https://pkgs.org/&lt;/a&gt; 搜索依赖包，下载后双击deb文件进行依赖包的安装；&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/86e661a44d8f26370cbd24cb709ec5c8/8ecd8/pkg-zlibc.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 57.245854361932224%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACCUlEQVQoz23LS4gScRzA8YGNoAg6dggiokPbtiB0CCLwUKetQ9ChS7GIm7quY4cwiKJStweJLHvo4K50CIROXaJjD3TUdCCS3JiXjxln1PnPtKuOjeM8nGZsH7j058OPH78/XygUuh8MBv1+PwzDgQB8F16El3xer8/vX3S73alUKpvLpdOZ7PghCFIoFGKr8XmPy+vxQtVaow0AEEWu3Wry7RYAbLPZlXq6Yai6rqjDwVCRlQlDVdV0XVVVyNSNb+lcPp0zZFUSuoOtfl/sqj3ZVHVT0cyhZi+WoTZBN0zThJi3HzKhWP5erPIkQUbXqWiSiiSp6Lq1E5E1IpzAwwlrkpE1cnwkl5P4w9fip6IdU2gJ/fh143OB/olxosAK4B9OALVWk2RoC8HQDN/e/WIA3+lLdlxbeVcKxMueV8TCM9L7gvTswReWf7kilg1XmLjzfPvue4nffiq8/2LH5etL+WOX0KMX0KnZ4tS5oj13HJhFd+wdDzry0EnmwYodc/ANynmCmpupXjnFOg6zjkP/xe06f6RxGtpafWTH/GNf4+bFxvxl9paTv3p2bNo2N93edmbCtZmm83j3TdyOK0BAMCKLEQiGIxiZwYgcQaGVOlqtf6/TP+hGmW3tU2K4Vrdnx0DRqE4fFyRS7NelAbUpU79lWlKqHbmyOeD+aEAb7cNrI8kYWfFfMGPRuo/AX+sAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;pkg zlibc&quot;
+        title=&quot;&quot;
+        src=&quot;/static/86e661a44d8f26370cbd24cb709ec5c8/b9e4f/pkg-zlibc.png&quot;
+        srcset=&quot;/static/86e661a44d8f26370cbd24cb709ec5c8/cf440/pkg-zlibc.png 148w,
+/static/86e661a44d8f26370cbd24cb709ec5c8/d2d38/pkg-zlibc.png 295w,
+/static/86e661a44d8f26370cbd24cb709ec5c8/b9e4f/pkg-zlibc.png 590w,
+/static/86e661a44d8f26370cbd24cb709ec5c8/f9b6a/pkg-zlibc.png 885w,
+/static/86e661a44d8f26370cbd24cb709ec5c8/2d849/pkg-zlibc.png 1180w,
+/static/86e661a44d8f26370cbd24cb709ec5c8/8ecd8/pkg-zlibc.png 1387w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/46e360ce70aba48dd24f7dbdd40b16f2/8d6e5/pkg-libpng.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.046511627906966%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAB8UlEQVQoz4XSzU8TQRgG8PFIUrx5MNGb8ebdv8BUjEcPYDx5kBibLm0TuUCJiTc+tGJFJG1IqZI0LVuIofJlkF5KWWTBSkXaGtpZdqEtu1N3ux/tjrsUAQmJT36ZPPPO8R3Q3eV2OJyEnXCacbmcHS7HE7vdThCEzWbr7Hy6vJykqFWaptcPs0bT6XQ68GHsob0dbG1mGGaXYzkGwvzODixAluUghAxkJFGsaVoFoYqAkCAcE3i+Kop1TQMY45X1jcRXuoYxqqqiUpPruqTWNYx1/J+AwtvQl47nS4978s+Gc25vtvtNxm0YyvYMGcU4G+WsLm+udxT8iia2x+OQTDIRigmvlD+nDjaZg++mcgrurmYNxY18Y3Ia/4MFn9ZCobg/So2Gk/5I0jfzMzibed8wsx2cSvkMsa3A8fDoKRNczEXAo+mbreT1e+TV2+EmK2mxTjRbJywnSMs/1yPNtyJNbR+vgbn2G7HWy9MPrpBtFyfvgqk7psmWv073ExeiVhC7fwnsjQfyI96Cb5jxjXCevj1PH/eyd9/TXxwcML3qLw0OlF+/OMsY+t+BlK4vIGVBUOb56ixS5yrafEVblPQlGccVnKhjSsc0Psc3Y1Xm/nmhxAl8UVRlVUJymf0toqoiKfy+iEqSJqs19RzGJ/kDw4LfNccXiH8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;pkg libpng&quot;
+        title=&quot;&quot;
+        src=&quot;/static/46e360ce70aba48dd24f7dbdd40b16f2/b9e4f/pkg-libpng.png&quot;
+        srcset=&quot;/static/46e360ce70aba48dd24f7dbdd40b16f2/cf440/pkg-libpng.png 148w,
+/static/46e360ce70aba48dd24f7dbdd40b16f2/d2d38/pkg-libpng.png 295w,
+/static/46e360ce70aba48dd24f7dbdd40b16f2/b9e4f/pkg-libpng.png 590w,
+/static/46e360ce70aba48dd24f7dbdd40b16f2/f9b6a/pkg-libpng.png 885w,
+/static/46e360ce70aba48dd24f7dbdd40b16f2/2d849/pkg-libpng.png 1180w,
+/static/46e360ce70aba48dd24f7dbdd40b16f2/8d6e5/pkg-libpng.png 1290w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ad9190ddb9f9512a4ea705dde0a89315/47b7a/pkg-libicu52.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 43.413873733437256%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABj0lEQVQoz43JW0vCYBgH8PdLRjcSzdDu+wJRRHagiJZlp4sK0g7QEQpnaTFtC13lhdkirdz2brrc3s3NWS1brgNEF/358fD8nwf4/X7M6/W14vd1dfs6vFinEwzDPB7PwuLiGUWTZJL+CkVRTIbpDfS1dbQDCULl6UkUBIHjIc9LoiSJYlksG3qtXjNqSNNUhBT1F0PT64YJrlg2dXFpNpuq1UDPz0bzTbNtw35t/iPgtB+P9gzC4CaHr5cmItxE+HF8FeJr/GTYIeCRlrBbP+ERbmylepgCaXwjN7ubD+3kp7eLW/HCEV0gqEKUciZ7QOb2Tq5b2IPkx90Vo+4OU1L2FtzsE0UiUYony8dxPXuusZdankEtlSwtpEmYISGTlLO0fuO8LlwolzH5IiitBB+Wp+6X8NL8KBcKcDMBPjQkzY2IH4bh7A/x29wIDA4oR3sgJsgxXiYcsBoVqoSoHJdRQtYTFY1UzDNkZQybMX9Lm3bBsoGsooqqama9Zll63Z2WU93daDTMvzj3xsvLO8VZtYeb8WkJAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;pkg libicu52&quot;
+        title=&quot;&quot;
+        src=&quot;/static/ad9190ddb9f9512a4ea705dde0a89315/b9e4f/pkg-libicu52.png&quot;
+        srcset=&quot;/static/ad9190ddb9f9512a4ea705dde0a89315/cf440/pkg-libicu52.png 148w,
+/static/ad9190ddb9f9512a4ea705dde0a89315/d2d38/pkg-libicu52.png 295w,
+/static/ad9190ddb9f9512a4ea705dde0a89315/b9e4f/pkg-libicu52.png 590w,
+/static/ad9190ddb9f9512a4ea705dde0a89315/f9b6a/pkg-libicu52.png 885w,
+/static/ad9190ddb9f9512a4ea705dde0a89315/2d849/pkg-libicu52.png 1180w,
+/static/ad9190ddb9f9512a4ea705dde0a89315/47b7a/pkg-libicu52.png 1283w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;再次执行 &lt;code class=&quot;language-text&quot;&gt;sudo dpkg -i redis-desktop-manager_0.8.3-120_amd64.deb&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;jason@jason-Latitude-5490:~/Downloads$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; dpkg -i redis-desktop-manager_0.8.3-120_amd64.deb 
+&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;正在读取数据库 &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. 系统当前共安装有 &lt;span class=&quot;token number&quot;&gt;277102&lt;/span&gt; 个文件和目录。&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+正准备解包 redis-desktop-manager_0.8.3-120_amd64.deb  &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+正在将 redis-desktop-manager &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.8&lt;/span&gt;.3-120&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 解包到 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.8&lt;/span&gt;.3-120&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 上 &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+正在设置 redis-desktop-manager &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.8&lt;/span&gt;.3-120&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+正在处理用于 gnome-menus &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3.13&lt;/span&gt;.3-11ubuntu1.1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 的触发器 &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+正在处理用于 desktop-file-utils &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.23&lt;/span&gt;-1ubuntu3.18.04.2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 的触发器 &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.
+正在处理用于 mime-support &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;.60ubuntu1&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 的触发器 &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[在Ubuntu上安装Spring Tool Suite]]></title><description><![CDATA[Step 1: 下载 Spring Tool Suite for Linux: https://spring.io/tools Step 2: 解压到 Step 3: 创建启动应用图标 Step 4: 编辑 STS.desktop Step…]]></description><link>http://nocoder.org/install-sts-on-ubuntu/</link><guid isPermaLink="false">http://nocoder.org/install-sts-on-ubuntu/</guid><pubDate>Thu, 25 Jul 2019 09:42:59 GMT</pubDate><content:encoded>&lt;p&gt;Step 1: 下载 Spring Tool Suite for Linux: &lt;a href=&quot;https://spring.io/tools&quot;&gt;https://spring.io/tools&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Step 2: 解压到&lt;code class=&quot;language-text&quot;&gt;/usr/local/sts/sts-4.3.1.RELEASE/SpringToolSuite4&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Step 3: 创建启动应用图标&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;vim&lt;/span&gt; /usr/share/applications/STS.desktop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Step 4: 编辑 STS.desktop&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Desktop Entry&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;Name&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Spring Tool Suite
+&lt;span class=&quot;token assign-left variable&quot;&gt;Comment&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;SpringSource Tool Suite
+&lt;span class=&quot;token assign-left variable&quot;&gt;Exec&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;/usr/local/sts/sts-4.3.1.RELEASE/SpringToolSuite4
+&lt;span class=&quot;token assign-left variable&quot;&gt;Icon&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;/usr/local/sts/sts-4.3.1.RELEASE/icon.xpm
+&lt;span class=&quot;token assign-left variable&quot;&gt;StartupNotify&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;true
+&lt;span class=&quot;token assign-left variable&quot;&gt;Terminal&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;false
+&lt;span class=&quot;token assign-left variable&quot;&gt;Type&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Application
+&lt;span class=&quot;token assign-left variable&quot;&gt;Categories&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Development&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;IDE&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;Java&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Step 5: 保存后就可以在启动应用程序中找到Spring Tool Suite并启动了&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello,  July!]]></title><description><![CDATA[再回首 2015年，我们从北京来到成都。我在这里工作的第一家公司是HY…]]></description><link>http://nocoder.org/bye-june/</link><guid isPermaLink="false">http://nocoder.org/bye-june/</guid><pubDate>Sun, 14 Jul 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;再回首&lt;/h2&gt;
+&lt;p&gt;2015年，我们从北京来到成都。我在这里工作的第一家公司是HY，做电子政务。我很喜欢我们团队，可是没多久我们团队的开发经理就离职了，渐渐的，我从开发转向了团队管理，那也是我很迷茫的一个时段。领导梁总对我很好，给我传授了很多管理经验，他称得上我的良师益友。我们的团队在不断的壮大，而我却萌生了想要离开的想法。从2017年开始，我就有进入一个互联网创业公司的想法，因为之前工作涉及的软件基本都是MIS系统，且经历的公司规模都比较大，对于互联网行业的技术栈、创业公司充满了好奇和想要尝试的欲望，在2018年5月离开HY后不久，我就不假思索的就入职了上一家公司SY。&lt;/p&gt;
+&lt;h2&gt;Bye, June!&lt;/h2&gt;
+&lt;p&gt;我于2018年5月28日入职SY。公司产品主要是为图书馆和读者服务，试图打造出全国领先的一站式云图书馆平台解决方案。据说公司的老板做了十几年的图书供应商，多年的图书馆行业经验促使他有了打造云图书馆平台的想法，近几年开始着手实践。公司规模不大，我2018年6月入职的时候，仅80多名员工。用了3年的时间研发软件、硬件产品，其解决方案被应用到全国各地一万多家图书馆，APP的注册用户有8万多。&lt;/p&gt;
+&lt;p&gt;春哥是技术总监，我很佩服这个人。春哥可以说是身兼数职，出色的团队管理、丰富的技术栈以及牛掰的架构能力足以让我俯首称臣。互联网的技术栈的确让我异常兴奋，DDD、微服务、分布式事务、可靠的消息事件、分布式数据库…诸多可以学习实践的技术吸引着我，这一年，我真的是玩儿的不亦乐乎，跟着春哥写代码，真的很爽。&lt;/p&gt;
+&lt;p&gt;没想到我刚入职几个月后，公司就开始出现迟发工资的情况。从去年年底到现在，一直在拖欠工资，老板的食言和敷衍，引起了众怒，可是大部分人敢怒不敢言，都是私底下抱怨。话说我们现在都没什么存款，靠着工资养家糊口还贷款，拖我一个月的工资，可以忍受，可是拖我三个月的工资，真的可以把我搞个半死，没办法，我只有从支付宝和手机银行借钱。可是老板并不重视员工的利益，反倒在开会时指责说公司目前的情况，是员工在浪费钱、工作不积极等因素导致的。从开始的理解，到抱怨，然后无语无奈，终于实在是扛不住了，我绝望了。春哥、兄弟姐妹们，江湖再见！&lt;/p&gt;
+&lt;h2&gt;Hello, July!&lt;/h2&gt;
+&lt;p&gt;我幸运的通过了资深Java开发的岗位面试，于2019年7月1日加入了西南凯亚，从一个小创业公司到一个国企的转变，我真的是感慨万千。感恩在HY做研发经理的经历，使得我在团队管理上有了很多宝贵的经验。感恩在SY架构组coding的日子，使得我在技术和架构设计上有了更大的提升。我很喜欢现在的工作环境和团队氛围，能为中国民航写代码，是我莫大的荣幸。我感觉自己像重生了一般，充满了活力，动力十足。加油，朋友！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[常用的图算法]]></title><description><![CDATA[最近做了一些涉及到图的算法题，特此归纳总结一下图的基础、广度优先搜索、深度优先搜索、迪克斯特拉算法以及贝尔曼福德算法。 什么是图  图是由节点（node）和边（edge）组成的一种数据结构。上图中，A 和 B…]]></description><link>http://nocoder.org/graph-algorithms/</link><guid isPermaLink="false">http://nocoder.org/graph-algorithms/</guid><pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;最近做了一些涉及到图的算法题，特此归纳总结一下图的基础、广度优先搜索、深度优先搜索、迪克斯特拉算法以及贝尔曼福德算法。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;什么是图&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1cf2b8c61ed2dc1ba58c1356bf90d313/75da9/basic-graph.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 211px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 42.654028436018955%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAAAxklEQVQoz7WS3QqDMAyFff8rn0bwBbzyQmsRBb1VREQQRPw9LhkpncgYbDtQkqZfQ5LWwUPHccAW7SVm22vsjnfEGccRTdNgGIYX6G7d8XLHIaeuayilUFUV0jRFWZZ4J+HJ2jwnnKaJD23leY62bRlYlgXruvLatg193xueYsJ3XfdsmUouioI3QRBgnmdux/d9aK0RRRHiOEaSJAjDEK7rcgKS53mGlxxcIcGkfd/ZZln2UYUi4k2F38zwyvMM//LKv/yHJ3kJtOAwsU30AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;basic-graph&quot;
+        title=&quot;&quot;
+        src=&quot;/static/1cf2b8c61ed2dc1ba58c1356bf90d313/75da9/basic-graph.png&quot;
+        srcset=&quot;/static/1cf2b8c61ed2dc1ba58c1356bf90d313/cf440/basic-graph.png 148w,
+/static/1cf2b8c61ed2dc1ba58c1356bf90d313/75da9/basic-graph.png 211w&quot;
+        sizes=&quot;(max-width: 211px) 100vw, 211px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%9B%BE_(%E6%95%B0%E5%AD%A6)&quot;&gt;图&lt;/a&gt;是由节点（node）和边（edge）组成的一种数据结构。上图中，A 和 B 是该图的节点，连接线是图的一条边。&lt;/p&gt;
+&lt;p&gt;图模拟了一组连接，一个节点可能与很多节点直接相连，这些节点称为&lt;strong&gt;邻居节点&lt;/strong&gt;，需要注意的是，在上面的图中，A指向B，说明B是A的邻居节点，但B没有指向A，说明A不是B的邻居节点。&lt;/p&gt;
+&lt;h2&gt;图的分类&lt;/h2&gt;
+&lt;h3&gt;有向图&lt;/h3&gt;
+&lt;p&gt;如果给图的每条边都规定一个方向，那么该图就称为有向图，有向图所有的连接关系都是单向的。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/30ce7b6e1b8ab60b91d9af4b89a64b73/1bae2/directed-graph.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 350px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 74.28571428571428%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAABgElEQVQ4y32U2Q6CQAxF5///yicTfPBNg4m7uK+4AmrNaVIzMGITMkxbbm9vZ3BSsff7/X1/vV66pmkqy+VSV99Prp+POR/Igv77ZrOR2Wwmu91O18vl8jff1QWww+EgzWZTgYqikCRJpNfryfF4DDqyb51trA0MFuPxWLbbre5hF0XRF2g+n8t0OtUiJkGJoa8ZLHgs2eLdbre0P5/PMhwOA7bOgKjKR7fbrTon9XU6HcnzPIj1+32VxWLKkAnSHqDodr1etW2AbCin00nbpH38xHmIrddrxcDvHo+HbrIsU/qIzp62SaT6YrHQOICtVkv9FKdlfDZASGnL+/1eRqORxHEsv4wCg8FAVqtVEINhu93WHKT7DgUGVIUZrP3ps1LQP9QYHaEhoKWh+JNGl8lkom2ZnwKNRkOez6fuOQGAQCA4h3WHGvEBRj/TEwB04ozajaleRffvGmEMAUAkYQWs7rqW7nK1df8dlvbUXbng5/AL2JJp6X6/B2yqfxrsA7kAilejtAS5AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;directed-graph&quot;
+        title=&quot;&quot;
+        src=&quot;/static/30ce7b6e1b8ab60b91d9af4b89a64b73/1bae2/directed-graph.png&quot;
+        srcset=&quot;/static/30ce7b6e1b8ab60b91d9af4b89a64b73/cf440/directed-graph.png 148w,
+/static/30ce7b6e1b8ab60b91d9af4b89a64b73/d2d38/directed-graph.png 295w,
+/static/30ce7b6e1b8ab60b91d9af4b89a64b73/1bae2/directed-graph.png 350w&quot;
+        sizes=&quot;(max-width: 350px) 100vw, 350px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;无向图&lt;/h3&gt;
+&lt;p&gt;边没有方向的图称为无向图，无向图其实意味着图的&lt;strong&gt;两个节点彼此指向对方&lt;/strong&gt;，其实就是环。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b38eaa7294e8910d79dad2f0aa36cb83/1bae2/undirected-graph.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 350px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 74.28571428571428%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAABc0lEQVQ4y32UiwrCMAxF+/+/p6AOUedzirr5mps6IyeQUjtnoPSR9vbmJq2TyN7vt++bptHx6XSSLMvkfD7r3NbZY/vNXAgUgtkYsNVqJYfDQZbLpVyv17/7XZcDA2Q0Gslms5H7/a7ASZJIURQ/I6K5ODwMFmmayn6/98DD4dADrddrWSwW8nw+vQRfDM1wwIJmm80/n8+/5pfLRabTaYutMyBuHQwGUpZlnCdd6/V68ng8Wj4uQhYk8QzJIOEBmue53G43DRsg5jAmOSSF3vw0zhyPR9WZ/a6qKgWs61rpIzpzQLbbrc7pYcChyWSifsaz2UwZvl4vPQspDZkbcEL9lwEAEMCxAcylMEU6nxQYsggzWIelQCPrYVFjyMF6mBgXZs5KhjB2u52El/X7fQ9GBaAnBFp12FXUyAAwPQctafSwshcTF7f794yw8Xis2iEDcljov859veU49HAMM8SndT251ufQ9eNYIiibeD3+abAPEcyMpjSRP54AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;undirected-graph&quot;
+        title=&quot;&quot;
+        src=&quot;/static/b38eaa7294e8910d79dad2f0aa36cb83/1bae2/undirected-graph.png&quot;
+        srcset=&quot;/static/b38eaa7294e8910d79dad2f0aa36cb83/cf440/undirected-graph.png 148w,
+/static/b38eaa7294e8910d79dad2f0aa36cb83/d2d38/undirected-graph.png 295w,
+/static/b38eaa7294e8910d79dad2f0aa36cb83/1bae2/undirected-graph.png 350w&quot;
+        sizes=&quot;(max-width: 350px) 100vw, 350px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;加权图&lt;/h3&gt;
+&lt;p&gt;图的每条边都有关联的数字，这些数字称为&lt;strong&gt;权重&lt;/strong&gt;，带权重的图称为&lt;strong&gt;加权图&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/411106b47c31c15f35e391d2db79c0a4/1bae2/directed-weighted-graph.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 350px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 74.28571428571428%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAABeklEQVQ4y4WU6arCQAyF5/3fSywo+FMUXKt1361Lq+byBTJMx+UGZJakJycnGZ1E9nq9/P75fOp6PB5lPp/rGt4TG8ZjLgQyZ7hfrVYymUxks9noej6ff8a7bw5st9tJvV5XoKIoZDqdSrfblf1+/1aRfevsYGUY0Hg8lvV6rWfYNZtND5RlmYxGIynL0ktQYRhqBos0TeXxeFQYDIfDyvl0OslgMHhj6wyIrO12Wy6XS9wnvcNH2bH1ej2VxXzKkA5SHqCUm+e5ig+QNeVwOChz4q7Xq4/Bt1wuFYN4d7vd9HC/35U+oi8WCy2dNUkSmc1m6gcQLS0JMnBnupNMS95ut+rsdDryyUjY7/c1QWwAt1otjUE63xQYUDLM2IfdZzWwcBqoCA0BrTQl7DTa0D3oh8lqtZrvPA1ABpK8zeG3oUYGZpEPYY3wVEAiZjCchvApul/PCGs0Gl4GVsC+PdfKW/70jMxgab//Yt2nrsbBlMTsxWzifxrsD1Uziq4hQvzyAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;directed-wieghted-graph&quot;
+        title=&quot;&quot;
+        src=&quot;/static/411106b47c31c15f35e391d2db79c0a4/1bae2/directed-weighted-graph.png&quot;
+        srcset=&quot;/static/411106b47c31c15f35e391d2db79c0a4/cf440/directed-weighted-graph.png 148w,
+/static/411106b47c31c15f35e391d2db79c0a4/d2d38/directed-weighted-graph.png 295w,
+/static/411106b47c31c15f35e391d2db79c0a4/1bae2/directed-weighted-graph.png 350w&quot;
+        sizes=&quot;(max-width: 350px) 100vw, 350px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;非加权图&lt;/h3&gt;
+&lt;p&gt;不带权重的图称为非加权图。&lt;/p&gt;
+&lt;h2&gt;广度优先搜索(Breadth-First-Search)&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;广度优先搜索算法&lt;/strong&gt;（英语：Breadth-First-Search，缩写为BFS），又译作&lt;strong&gt;宽度优先搜索&lt;/strong&gt;，或&lt;strong&gt;横向优先搜索&lt;/strong&gt;，是一种&lt;a href=&quot;https://zh.wikipedia.org/w/index.php?title=%E5%9C%96%E5%BD%A2%E6%90%9C%E7%B4%A2%E6%BC%94%E7%AE%97%E6%B3%95&amp;#x26;action=edit&amp;#x26;redlink=1&quot;&gt;图形搜索算法&lt;/a&gt;。简单的说，BFS是从&lt;a href=&quot;https://zh.wikipedia.org/w/index.php?title=%E6%A0%B9%E7%AF%80%E9%BB%9E&amp;#x26;action=edit&amp;#x26;redlink=1&quot;&gt;根节点&lt;/a&gt;开始，沿着树的宽度遍历树的&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E8%8A%82%E7%82%B9&quot;&gt;节点&lt;/a&gt;。如果所有节点均被访问，则算法中止。广度优先搜索的实现一般采用open-closed表&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2&quot;&gt;广度优先搜索&lt;/a&gt;解决两类问题：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;从节点A出发，有没有前往节点B的路径&lt;/li&gt;
+&lt;li&gt;从节点A出发，前往节点B的那条路径最短，或者说哪条路径的段数最少？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;广度优先搜索中，起点的邻居称为一度关系，其邻居的邻居称为二度关系，搜索顺序是先一度关系，再二度关系，以此类推。在代码实现时，需要使用&lt;strong&gt;双端队列&lt;/strong&gt;来保证搜索顺序。&lt;/p&gt;
+&lt;p&gt;广度优先搜索的步骤：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;创建一个队列，将起点的所有邻居节点压入到队列中；&lt;/li&gt;
+&lt;li&gt;从队列弹出一个节点，检查这个节点是否终点，如果是，则完成搜索；&lt;/li&gt;
+&lt;li&gt;如果该节点不是终点，则将该节点的所有邻居节点压入上述队列中；&lt;/li&gt;
+&lt;li&gt;回到第2步，继续检查；&lt;/li&gt;
+&lt;li&gt;如果队列为空，说明终点不可达，找不到该路径。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;狄克斯特拉算法(Dijkstra)&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;戴克斯特拉算法&lt;/strong&gt;（英语：Dijkstra’s algorithm，又译&lt;strong&gt;迪杰斯特拉算法&lt;/strong&gt;）由荷兰计算机科学家&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E8%89%BE%E5%85%B9%E8%B5%AB%E5%B0%94%C2%B7%E6%88%B4%E5%85%8B%E6%96%AF%E7%89%B9%E6%8B%89&quot;&gt;艾兹赫尔·戴克斯特拉&lt;/a&gt;在1956年提出。戴克斯特拉算法使用了&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2&quot;&gt;广度优先搜索&lt;/a&gt;解决赋权有向图的单源&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84%E9%97%AE%E9%A2%98&quot;&gt;最短路径问题&lt;/a&gt;。该算法存在很多变体；戴克斯特拉的原始版本找到两个顶点之间的最短路径，但是更常见的变体固定了一个顶点作为源节点然后找到该顶点到图中所有其它节点的最短路径，产生一个&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84%E6%A0%91&quot;&gt;最短路径树&lt;/a&gt;。该算法常用于&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E8%B7%AF%E7%94%B1&quot;&gt;路由&lt;/a&gt;算法或者作为其他图算法的一个子模块。举例来说，如果图中的顶点表示城市，而边上的权重表示城市间开车行经的距离，该算法可以用来找到两个城市之间的最短路径。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;广度优先搜索可以找到段数最少的路径，但是无法找到&lt;strong&gt;开销&lt;/strong&gt;最小的路径，&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%88%B4%E5%85%8B%E6%96%AF%E7%89%B9%E6%8B%89%E7%AE%97%E6%B3%95&quot;&gt;狄克斯特拉算法&lt;/a&gt;就是用来解决这类问题的。什么是&lt;strong&gt;开销&lt;/strong&gt;，可以理解为总权重，假设从起点出发到节点B需要2小时，那么可以称起点到节点B的&lt;strong&gt;开销&lt;/strong&gt;为2。当然，开销也可以是其他的计量单位，例如从起点出发到节点B距离3公里，可以计作起点到节点B的&lt;strong&gt;开销&lt;/strong&gt;为3。&lt;/p&gt;
+&lt;p&gt;狄克斯特拉算法的步骤：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;找出开销最小的节点，即可以在最短的时间内到达的节点；&lt;/li&gt;
+&lt;li&gt;更新该节点的邻居的开销；&lt;/li&gt;
+&lt;li&gt;重复这个过程，直到图中所有的节点都处理完；&lt;/li&gt;
+&lt;li&gt;计算开销最小的路径。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;注：狄克斯特拉算法仅适用于&lt;strong&gt;有向无环图&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;深度优先搜索(Depth-First-Search)&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;深度优先搜索算法&lt;/strong&gt;（英语：Depth-First-Search，DFS）是一种用于遍历或搜索&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%A0%91_(%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)&quot;&gt;树&lt;/a&gt;或&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%9B%BE_(%E6%95%B0%E5%AD%A6)&quot;&gt;图&lt;/a&gt;的&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E7%AE%97%E6%B3%95&quot;&gt;算法&lt;/a&gt;。沿着树的深度遍历树的节点，尽可能深的搜索树的分支。当节点v的所在边都己被探寻过，搜索将回溯到发现节点v的那条边的起始节点。这一过程一直进行到已发现从源节点可达的所有节点为止。如果还存在未被发现的节点，则选择其中一个作为源节点并重复以上过程，整个进程反复进行直到所有节点都被访问为止。属于盲目搜索。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;从图G的某个顶点v0出发，访问v0，然后选择一个与v0相邻且没被访问过的顶点vi访问，再从vi出发选择一个与vi相邻且未被访问的顶点vj进行访问，依次继续。如果当前被访问过的顶点的所有邻接顶点都已被访问，则退回到已被访问的顶点序列中最后一个拥有未被访问的相邻顶点的顶点w，从w出发按同样的方法向前遍历，直到图中所有顶点都被访问。&lt;/p&gt;
+&lt;p&gt;深度优先搜索的步骤：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;首先将起点放入到队列中；&lt;/li&gt;
+&lt;li&gt;从队列弹出一个节点，并检查它是否为终点，如果是，则完成搜索，返回结果；&lt;/li&gt;
+&lt;li&gt;如果不是终点，则将它某一个没有检查过的邻居节点加入到队列中；&lt;/li&gt;
+&lt;li&gt;回到第2步；&lt;/li&gt;
+&lt;li&gt;如果不存在未检查过的邻居节点，则将其父节点加入队列中，回到第2步；&lt;/li&gt;
+&lt;li&gt;重复第5步；&lt;/li&gt;
+&lt;li&gt;如果队列为空，表示所有的节点都检查过了，完成搜索，返回找不到终点&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;参考文献&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;《算法图解》&lt;/li&gt;
+&lt;li&gt;《算法（第4版）》&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%9B%BE_(%E6%95%B0%E5%AD%A6)&quot;&gt;维基百科-图&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2&quot;&gt;维基百科-广度优先搜索&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%88%B4%E5%85%8B%E6%96%AF%E7%89%B9%E6%8B%89%E7%AE%97%E6%B3%95&quot;&gt;维基百科-戴克斯特拉算法&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2&quot;&gt;维基百科-深度优先搜索&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Backtracking&quot;&gt;wikipedia-Backtracking&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Gatsby 入门]]></title><description><![CDATA[什么是 Gatsby Gatsby是一个基于React的免费开源的静态网站生成框架，可以快速构建网站和APP。 为什么用 Gatsby 基于 React 插件丰富 静态文件 速度飞快 Gatsby 环境准备 安装 nodejs 安装  安装 git…]]></description><link>http://nocoder.org/gatsby-learning/</link><guid isPermaLink="false">http://nocoder.org/gatsby-learning/</guid><pubDate>Mon, 27 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;什么是 Gatsby&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.gatsbyjs.org/&quot;&gt;Gatsby&lt;/a&gt;是一个基于React的免费开源的静态网站生成框架，可以快速构建网站和APP。&lt;/p&gt;
+&lt;h3&gt;为什么用 Gatsby&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;基于 React&lt;/li&gt;
+&lt;li&gt;插件丰富&lt;/li&gt;
+&lt;li&gt;静态文件&lt;/li&gt;
+&lt;li&gt;速度飞快&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Gatsby 环境准备&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;安装 &lt;a href=&quot;https://nodejs.org/&quot;&gt;nodejs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;安装 &lt;code class=&quot;language-text&quot;&gt;gatsby-cli&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; --global gatsby-cli&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;安装 git&lt;/li&gt;
+&lt;li&gt;选个顺手的代码编辑器，推荐使用 &lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;vs code&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;使用 Gatsby starters&lt;/h3&gt;
+&lt;p&gt;Gatsby 提供了一些 starter 以便快速构建网站，这些 starter 在他们的 &lt;a href=&quot;https://github.com/gatsbyjs&quot;&gt;github&lt;/a&gt; 上，通过&lt;code class=&quot;language-text&quot;&gt;gatsby new&lt;/code&gt;命令，可以基于 starter 创建一个本地 Gatsby 网站。&lt;/p&gt;
+&lt;p&gt;使用以下命令可以基于 &lt;code class=&quot;language-text&quot;&gt;gatsby-starter-hello-world&lt;/code&gt; starter 创建一个 Gatsby 网站。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;gatsby new hello-world https://github.com/gatsbyjs/gatsby-starter-hello-world&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;项目创建完后，进入&lt;code class=&quot;language-text&quot;&gt;hello-word&lt;/code&gt; 目录，执行 &lt;code class=&quot;language-text&quot;&gt;gatsby develop&lt;/code&gt; 来启动网站&lt;/p&gt;
+&lt;p&gt;项目创建完后，进入&lt;code class=&quot;language-text&quot;&gt;hello-word&lt;/code&gt; 目录，执行 &lt;code class=&quot;language-text&quot;&gt;gatsby develop&lt;/code&gt; 来启动项目，默认端口号为&lt;code class=&quot;language-text&quot;&gt;8000&lt;/code&gt;。&lt;/p&gt;
 &lt;h3&gt;认识 Gatsby 的页面&lt;/h3&gt;
 &lt;p&gt;在编辑器中打开&lt;code class=&quot;language-text&quot;&gt;src/pages/index.js&lt;/code&gt;，该文件中的代码表示创建了一个组件，该组件包含一个div和字符串”hello world”。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;react&quot;&lt;/span&gt;
@@ -12,7 +440,6 @@
 
 &lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; React&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;div&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Hello world!&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3&gt;Components&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;什么是Component&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;一个组件是网站的构建块，是一段自包含的代码，描述了UI的一部分。Gatsby 是基于React 编写的。当我们谈使用和定义组件时，实际上是在说React组件——自包含的代码片段(通常使用JSX编写)，它可以接受输入并返回描述UI部分的React元素。&lt;/p&gt;
 &lt;p&gt;原生的HTML定义一个button&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;button&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;primary-button&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Click me&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -28,7 +455,7 @@
 &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; Header &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;../components/header&quot;&lt;/span&gt;
 
 &lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
-  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div style&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; color&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`teal`&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div style&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; color&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;teal&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
     &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Header &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; 
     &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;Such wow&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt; Very React&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;p&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
   &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
@@ -42,13 +469,12 @@
 &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; Header &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;../components/header&quot;&lt;/span&gt;
 
 &lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
-  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div style&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; color&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`teal`&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div style&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; color&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;teal&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
     &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Header headerText&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;About Gatsby&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; 
     &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;Such wow&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt; Very React&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;p&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
   &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3&gt;Props&lt;/h3&gt;
-&lt;h4&gt;什么是 props&lt;/h4&gt;
 &lt;p&gt;想要让这些可重用的组件具有动态性，能够为它们赋值，就可以使用 props 来完成此操作。props 是 React components 提供的属性。&lt;/p&gt;
 &lt;p&gt;在上面的例子中，我们通过 &lt;code class=&quot;language-text&quot;&gt;headerText=&amp;quot;About Gatsby&amp;quot;&lt;/code&gt; 来引入&lt;code class=&quot;language-text&quot;&gt;Header&lt;/code&gt; sub-component&lt;/p&gt;
 &lt;h3&gt;Link&lt;/h3&gt;
@@ -79,12 +505,14 @@
 &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3&gt;小结&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;学习如何使用 Gatsby starters 创建项目&lt;/li&gt;
-&lt;li&gt;学习 JSX 语法&lt;/li&gt;
-&lt;li&gt;学习 components&lt;/li&gt;
-&lt;li&gt;学习 Gatsby page components 和 sub-components&lt;/li&gt;
-&lt;li&gt;学习 React “props” 和重用 React components&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Java 垃圾收集器]]></title><description><![CDATA[Serial收集器 简单高效的单线程的收集器，在它做收集工作时，会停掉所有其他的工作线程，直到它收集结束。 ParNew收集器 ParNew收集器是Serial收集器的多线程版本，多条垃圾收集线程并行工作，但此时用户线程仍然处于等待状态。 Parallel Scavenge…]]></description><link>http://nocoder.org/java-garbage-collection/</link><guid isPermaLink="false">http://nocoder.org/java-garbage-collection/</guid><pubDate>Tue, 21 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;Serial收集器&lt;/strong&gt; &lt;/p&gt;
+&lt;li&gt;了解 Gatsby&lt;/li&gt;
+&lt;li&gt;Gatsby 环境准备&lt;/li&gt;
+&lt;li&gt;使用 Gatsby starters 创建网站&lt;/li&gt;
+&lt;li&gt;JSX 语法&lt;/li&gt;
+&lt;li&gt;Components&lt;/li&gt;
+&lt;li&gt;Gatsby page components 和 sub-components&lt;/li&gt;
+&lt;li&gt;React “props” 和重用 React components&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Java 垃圾收集器]]></title><description><![CDATA[Serial收集器  简单高效的单线程的收集器，在它做收集工作时，会停掉所有其他的工作线程，直到它收集结束。  ParNew收集器  ParNew收集器是Serial收集器的多线程版本，多条垃圾收集线程并行工作，但此时用户线程仍然处于等待状态。  Parallel…]]></description><link>http://nocoder.org/java-garbage-collection/</link><guid isPermaLink="false">http://nocoder.org/java-garbage-collection/</guid><pubDate>Tue, 21 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;Serial收集器&lt;/strong&gt; &lt;/p&gt;
 &lt;p&gt;简单高效的单线程的收集器，在它做收集工作时，会停掉所有其他的工作线程，直到它收集结束。 &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;ParNew收集器&lt;/strong&gt; &lt;/p&gt;
 &lt;p&gt;ParNew收集器是Serial收集器的多线程版本，多条垃圾收集线程并行工作，但此时用户线程仍然处于等待状态。 &lt;/p&gt;
@@ -104,7 +532,7 @@
 &lt;li&gt;空间整合&lt;/li&gt;
 &lt;li&gt;可预测的停顿&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;初始标记、并发标记、最终标记、筛选回收&lt;/p&gt;</content:encoded></item><item><title><![CDATA[良好编程的原则]]></title><description><![CDATA[长久以来，不论是初出茅庐还是业界的老前辈，都依然强调着编程原则和设计原则。Bob大叔在他的《整洁架构之道》中提到，写这本书就是为了讲述这些规则，这些永恒的，不变的软件架构规则。在学习各种编程原则的时候，看到了 Christopher Diggins…]]></description><link>http://nocoder.org/principles-of-good-programming/</link><guid isPermaLink="false">http://nocoder.org/principles-of-good-programming/</guid><pubDate>Sat, 04 May 2019 09:40:00 GMT</pubDate><content:encoded>&lt;p&gt;长久以来，不论是初出茅庐还是业界的老前辈，都依然强调着编程原则和设计原则。Bob大叔在他的《整洁架构之道》中提到，写这本书就是为了讲述这些规则，这些永恒的，不变的软件架构规则。&lt;/p&gt;
+&lt;p&gt;初始标记、并发标记、最终标记、筛选回收&lt;/p&gt;</content:encoded></item><item><title><![CDATA[良好编程的原则]]></title><description><![CDATA[长久以来，不论是初出茅庐还是业界的老前辈，都依然强调着编程原则和设计原则。Bob大叔在他的《整洁架构之道》中提到，写这本书就是为了讲述这些规则，这些永恒的，不变的软件架构规则。 在学习各种编程原则的时候，看到了 Christopher Diggins…]]></description><link>http://nocoder.org/principles-of-good-programming/</link><guid isPermaLink="false">http://nocoder.org/principles-of-good-programming/</guid><pubDate>Sat, 04 May 2019 09:40:00 GMT</pubDate><content:encoded>&lt;p&gt;长久以来，不论是初出茅庐还是业界的老前辈，都依然强调着编程原则和设计原则。Bob大叔在他的《整洁架构之道》中提到，写这本书就是为了讲述这些规则，这些永恒的，不变的软件架构规则。&lt;/p&gt;
 &lt;p&gt;在学习各种编程原则的时候，看到了 Christopher Diggins 的这篇良好编程的原则，其中罗列了各种原则以及相应的链接，认为多年来这些编程原则帮助让其成为更好的程序员，且可以帮助任何开发人员来提高效率，写出更加易于维护、BUG更少的代码。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;DRY-Don‘t repeat yourself&lt;/strong&gt; - 这是编程中的一个基本原则，就是避免重复。许多编程结构仅用于此目的（例如循环，函数，类等）。一旦你开始重复自己（例如一个长表达式，一系列语句，相同的概念），就创建一个新的抽象。 &lt;a href=&quot;http://en.wikipedia.org/wiki/Don&amp;#x27;t_repeat_yourself&quot;&gt;http://en.wikipedia.org/wiki/Don%27t&lt;em&gt;repeat&lt;/em&gt;yourself&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;抽象原则&lt;/strong&gt; - 与DRY相关的抽象原则是“程序中的每一个重要功能都应该在源代码中的一个地方实现”。&lt;a href=&quot;http://en.wikipedia.org/wiki/Abstraction_principle_(programming&quot;&gt;http://en.wikipedia.org/wiki/Abstraction_principle_(programming&lt;/a&gt;）&lt;/p&gt;
@@ -116,7 +544,7 @@
 &lt;p&gt;&lt;strong&gt;为维护者编写代码&lt;/strong&gt; - 几乎所有值得写的代码都值得在将来维护。你必然也会维护其他人写的代码，踩别人留下的坑。有句话可以让你深刻的记住这一点，“维护你的代码的人是一个知道你住在哪里的暴力精神病患者。“ &lt;a href=&quot;http://c2.com/cgi/wiki?CodeForTheMaintainer&quot;&gt;http://c2.com/cgi/wiki?CodeForTheMaintainer&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;最不惊讶&lt;/strong&gt;的原则 - &lt;strong&gt;最不惊讶&lt;/strong&gt;的原则通常在用户界面方面被引用，但同样的原则适用于书面代码。代码应该尽可能少地让读者感到惊讶。遵循标准惯例的方法，代码应该做注释和名称所暗示的，并且应该尽可能避免可能出人意料的副作用。 &lt;a href=&quot;http://en.wikipedia.org/wiki/Principle_of_least_astonishment&quot;&gt;http://en.wikipedia.org/wiki/Principle_of_least_astonishment&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;单一责任原则&lt;/strong&gt; - 代码（例如类或函数）应执行单个定义良好的任务。 &lt;a href=&quot;http://en.wikipedia.org/wiki/Single_responsibility_principle&quot;&gt;http://en.wikipedia.org/wiki/Single_responsibility_principle&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;最小化耦合&lt;/strong&gt; - 代码的任何部分（代码块，函数，类等）应最小化对其他代码区域的依赖性。这是通过尽可能少地使用共享变量来实现的。“低耦合通常是结构良好的计算机系统和良好设计的标志，当与高内聚相结合时，支持高可读性和可维护性的一般目标” [http://en.wikipedia.org/wiki/Coupling&lt;em&gt;（ computer&lt;/em&gt;programming](&lt;a href=&quot;http://en.wikipedia.org/wiki/Coupling_(computer_programming)%EF%BC%89&quot;&gt;http://en.wikipedia.org/wiki/Coupling&lt;em&gt;(computer&lt;/em&gt;programming)）&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;最小化耦合&lt;/strong&gt; - 代码的任何部分（代码块，函数，类等）应最小化对其他代码区域的依赖性。这是通过尽可能少地使用共享变量来实现的。“低耦合通常是结构良好的计算机系统和良好设计的标志，当与高内聚相结合时，支持高可读性和可维护性的一般目标” [http://en.wikipedia.org/wiki/Coupling&lt;em&gt;（ computer&lt;/em&gt;programming](&lt;a href=&quot;http://en.wikipedia.org/wiki/Coupling_(computer_programming)%EF%BC%89&quot;&gt;http://en.wikipedia.org/wiki/Coupling_(computer_programming)）&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;最大化内聚&lt;/strong&gt; - 应在同一组件中找到具有类似功能的代码。 &lt;a href=&quot;http://en.wikipedia.org/wiki/Cohesion_(computer_science&quot;&gt;http://en.wikipedia.org/wiki/Cohesion_(computer_science&lt;/a&gt;）&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;隐藏实现详细信息&lt;/strong&gt; - 隐藏实现详细信息允许更改代码组件的实现，同时最小化影响使用该组件的任何其他模块。 &lt;a href=&quot;http://en.wikipedia.org/wiki/Information_Hiding&quot;&gt;http://en.wikipedia.org/wiki/Information_Hiding&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;迪米特法则&lt;/strong&gt; - 一个组件只应与它的直接关系进行通信（例如它继承的类，它包含的对象，通过参数传递的对象等） &lt;a href=&quot;http://en.wikipedia.org/wiki/Law_of_Demeter&quot;&gt;http://en.wikipedia.org/wiki/Law_of_Demeter&lt;/a&gt;&lt;/p&gt;
@@ -127,7 +555,7 @@
 &lt;p&gt;参考文献：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.artima.com/weblogs/viewpost.jsp?thread=331531&quot;&gt;The Principles of Good Programming&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[面向切面编程]]></title><description><![CDATA[AOP 被认为是对 OOP 的一个强大的补充，有了 AOP，我们可以把之前分散在应用各处的行为放在可重用的模块中，可以有效减少冗余代码，并让我们的类只关注自身的主要功能。AOP 概述面向切面编程（aspect-oriented programming…]]></description><link>http://nocoder.org/aspect-oriented-programming/</link><guid isPermaLink="false">http://nocoder.org/aspect-oriented-programming/</guid><pubDate>Thu, 14 Feb 2019 13:37:41 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[面向切面编程]]></title><description><![CDATA[AOP 被认为是对 OOP 的一个强大的补充，有了 AOP，我们可以把之前分散在应用各处的行为放在可重用的模块中，可以有效减少冗余代码，并让我们的类只关注自身的主要功能。 AOP 概述 面向切面编程（aspect-oriented programming…]]></description><link>http://nocoder.org/aspect-oriented-programming/</link><guid isPermaLink="false">http://nocoder.org/aspect-oriented-programming/</guid><pubDate>Thu, 14 Feb 2019 13:37:41 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;AOP 被认为是对 OOP 的一个强大的补充，有了 AOP，我们可以把之前分散在应用各处的行为放在可重用的模块中，可以有效减少冗余代码，并让我们的类只关注自身的主要功能。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;AOP 概述&lt;/h2&gt;
@@ -417,8 +845,6 @@
 &lt;ul&gt;
 &lt;li&gt;JDK的动态代理依靠接口实现&lt;/li&gt;
 &lt;li&gt;如果类并没有实现接口，则不能使用Jdk的动态代理&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;定义图书服务接口&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;token namespace&quot;&gt;org&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nocoder&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;proxy&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;jdkproxy&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
@@ -435,8 +861,6 @@
    &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;addBook&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
-&lt;/ol&gt;
-&lt;ol start=&quot;2&quot;&gt;
 &lt;li&gt;
 &lt;p&gt;编写图书服务实现类&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;token namespace&quot;&gt;org&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nocoder&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;proxy&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;jdkproxy&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
@@ -517,7 +941,7 @@
 
 &lt;span class=&quot;token class-name&quot;&gt;Process&lt;/span&gt; finished &lt;span class=&quot;token keyword&quot;&gt;with&lt;/span&gt; exit code &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
-&lt;/ol&gt;
+&lt;/ul&gt;
 &lt;h4&gt;CGLIB动态代理&lt;/h4&gt;
 &lt;p&gt;JDK的动态代理依靠接口实现，如果有些类并没有实现接口，则不能使用JDK代理，这时就要使用cglib动态代理了。使用cglib需要依赖&lt;code class=&quot;language-text&quot;&gt;cglib&lt;/code&gt;的jar，使用maven为例&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;xml&quot;&gt;&lt;pre class=&quot;language-xml&quot;&gt;&lt;code class=&quot;language-xml&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;dependency&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
@@ -540,8 +964,6 @@
    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
-&lt;/ol&gt;
-&lt;ol start=&quot;2&quot;&gt;
 &lt;li&gt;
 &lt;p&gt;编写MethodInterceptor实现类&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;token namespace&quot;&gt;org&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nocoder&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;proxy&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;cglibproxy&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
@@ -565,8 +987,6 @@
    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
-&lt;/ol&gt;
-&lt;ol start=&quot;3&quot;&gt;
 &lt;li&gt;
 &lt;p&gt;运行测试程序&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;token namespace&quot;&gt;org&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nocoder&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;proxy&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;cglibproxy&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
@@ -590,15 +1010,13 @@
    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
-&lt;/ol&gt;
-&lt;ol start=&quot;4&quot;&gt;
 &lt;li&gt;
 &lt;p&gt;运行结果&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;事务开始
 新增图书
 事务结束
 
-Process finished with &lt;span class=&quot;token keyword&quot;&gt;exit&lt;/span&gt; code 0&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+Process finished with &lt;span class=&quot;token builtin class-name&quot;&gt;exit&lt;/span&gt; code &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt;Spring AOP&lt;/h2&gt;
@@ -826,22 +1244,14 @@ Process finished with &lt;span class=&quot;token keyword&quot;&gt;exit&lt;/span&
   &lt;/a&gt;
     &lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E9%9D%A2%E5%90%91%E4%BE%A7%E9%9D%A2%E7%9A%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1&quot;&gt;https://zh.wikipedia.org/wiki/%E9%9D%A2%E5%90%91%E4%BE%A7%E9%9D%A2%E7%9A%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%A8%AA%E5%88%87%E5%85%B3%E6%B3%A8%E7%82%B9&quot;&gt;https://zh.wikipedia.org/wiki/%E6%A8%AA%E5%88%87%E5%85%B3%E6%B3%A8%E7%82%B9&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://juejin.im/post/5b06bf2df265da0de2574ee1&quot;&gt;https://juejin.im/post/5b06bf2df265da0de2574ee1&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.cnblogs.com/jqyp/archive/2010/08/20/1805041.html#3460821&quot;&gt;http://www.cnblogs.com/jqyp/archive/2010/08/20/1805041.html#3460821&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;http://blog.didispace.com/springbootaoplog/&quot;&gt;http://blog.didispace.com/springbootaoplog/&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[关于日志的那些事儿]]></title><description><![CDATA[…]]></description><link>http://nocoder.org/about-logging/</link><guid isPermaLink="false">http://nocoder.org/about-logging/</guid><pubDate>Mon, 12 Nov 2018 07:25:47 GMT</pubDate><content:encoded>&lt;p&gt;这篇短文整理了关于日志的一些内容，耗叔要求的【目标是一篇“引经据典“的，“全面系统“的对日志的介绍】。结合一些参考链接和以往的经验，主要对软件开发过程中日志相关的知识进行梳理和学习。&lt;/p&gt;
+&lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E9%9D%A2%E5%90%91%E4%BE%A7%E9%9D%A2%E7%9A%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1&quot;&gt;https://zh.wikipedia.org/wiki/%E9%9D%A2%E5%90%91%E4%BE%A7%E9%9D%A2%E7%9A%84%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%A8%AA%E5%88%87%E5%85%B3%E6%B3%A8%E7%82%B9&quot;&gt;https://zh.wikipedia.org/wiki/%E6%A8%AA%E5%88%87%E5%85%B3%E6%B3%A8%E7%82%B9&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://juejin.im/post/5b06bf2df265da0de2574ee1&quot;&gt;https://juejin.im/post/5b06bf2df265da0de2574ee1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.cnblogs.com/jqyp/archive/2010/08/20/1805041.html#3460821&quot;&gt;http://www.cnblogs.com/jqyp/archive/2010/08/20/1805041.html#3460821&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.didispace.com/springbootaoplog/&quot;&gt;http://blog.didispace.com/springbootaoplog/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[关于日志的那些事儿]]></title><description><![CDATA[…]]></description><link>http://nocoder.org/about-logging/</link><guid isPermaLink="false">http://nocoder.org/about-logging/</guid><pubDate>Mon, 12 Nov 2018 07:25:47 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;这篇短文整理了关于日志的一些内容，耗叔要求的【目标是一篇“引经据典“的，“全面系统“的对日志的介绍】。结合一些参考链接和以往的经验，主要对软件开发过程中日志相关的知识进行梳理和学习。&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2&gt;日志的定义&lt;/h2&gt;
 &lt;p&gt;先说说咱们日常生活中的日志，就是日记的另一种说法。&lt;/p&gt;
 &lt;blockquote&gt;
@@ -1023,9 +1433,7 @@ logger.debug(&amp;quot;Entry number: {} is {}&amp;quot;, i, entry[i]);&lt;/code&
 &lt;li&gt;logback-access是为了集成Servlet环境而准备的，可提供HTTP-access的日志接口。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;…&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;…&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;最佳实践&lt;/h2&gt;
 &lt;ul&gt;
@@ -1159,7 +1567,7 @@ logger.debug(&amp;quot;Entry number: {} is {}&amp;quot;, i, entry[i]);&lt;/code&
 &lt;p&gt;You should see the line appear in the console consumer output and in the sink file.&lt;/p&gt;
 &lt;h4&gt;&lt;a href=&quot;https://kafka.apache.org/quickstart#quickstart_kafkastreams&quot;&gt;Step 8: Use Kafka Streams to process data&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;Kafka Streams is a client library for building mission-critical real-time applications and microservices, where the input and/or output data is stored in Kafka clusters. Kafka Streams combines the simplicity of writing and deploying standard Java and Scala applications on the client side with the benefits of Kafka’s server-side cluster technology to make these applications highly scalable, elastic, fault-tolerant, distributed, and much more. This &lt;a href=&quot;https://kafka.apache.org/20/documentation/streams/quickstart&quot;&gt;quickstart example&lt;/a&gt; will demonstrate how to run a streaming application coded in this library.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[近期接触的技术点总结]]></title><description><![CDATA[要花点时间总结一下来公司这些日子做的东西了，自我感觉良好，跟着春哥学了不少东西，这半年还是很充实的。
-记得有一次春哥笑着跟我说，“你要相信，别人能做出来的东西，你也可以。”架构设计领域驱动设计分布式系统架构设计框架应用eurekaspringbootalibaba…]]></description><link>http://nocoder.org/some-tips/</link><guid isPermaLink="false">http://nocoder.org/some-tips/</guid><pubDate>Sat, 29 Sep 2018 14:06:05 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+记得有一次春哥笑着跟我说，“你要相信，别人能做出来的东西，你也可以。” 架构设计 领域驱动设计 分布式系统架构设计 框架应用 eureka springboot alibaba…]]></description><link>http://nocoder.org/some-tips/</link><guid isPermaLink="false">http://nocoder.org/some-tips/</guid><pubDate>Sat, 29 Sep 2018 14:06:05 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;要花点时间总结一下来公司这些日子做的东西了，自我感觉良好，跟着春哥学了不少东西，这半年还是很充实的。
 记得有一次春哥笑着跟我说，“你要相信，别人能做出来的东西，你也可以。”&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1303,20 +1711,16 @@ logger.debug(&amp;quot;Entry number: {} is {}&amp;quot;, i, entry[i]);&lt;/code&
 &lt;/ul&gt;
 &lt;h3&gt;Java&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;多线程&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;异常处理&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[开启ssh代理服务]]></title><description><![CDATA[-q :- be very quite, we are acting only as a tunnel. 使用安静模式
+&lt;li&gt;多线程&lt;/li&gt;
+&lt;li&gt;异常处理&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[开启ssh代理服务]]></title><description><![CDATA[使用ssh开始代理服务]]></description><link>http://nocoder.org/ssh-proxy/</link><guid isPermaLink="false">http://nocoder.org/ssh-proxy/</guid><pubDate>Thu, 09 Aug 2018 02:03:05 GMT</pubDate><content:encoded>&lt;p&gt;使用ssh开始代理服务&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;ssh&lt;/span&gt; -qTfnN -D &lt;span class=&quot;token number&quot;&gt;7070&lt;/span&gt; xxx@xxx.com
+
+-q :- be very quite, we are acting only as a tunnel. 使用安静模式
 -T :- Do not allocate a pseudo tty, we are only acting a tunnel.不要分配tty
--f…]]></description><link>http://nocoder.org/ssh-proxy/</link><guid isPermaLink="false">http://nocoder.org/ssh-proxy/</guid><pubDate>Thu, 09 Aug 2018 02:03:05 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;ssh&lt;/span&gt; -qTfnN -D 7070 xxx@xxx.com &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;-q :- be very quite, we are acting only as a tunnel. 使用安静模式
--T :- Do not allocate a pseudo tty, we are only acting a tunnel.不要分配tty
--f :- move the ssh process to background, as we don’t want to interact with this ssh session directly. 后台运行
+-f :- move the &lt;span class=&quot;token function&quot;&gt;ssh&lt;/span&gt; process to background, as we don’t want to interact with this &lt;span class=&quot;token function&quot;&gt;ssh&lt;/span&gt; session directly. 后台运行
 -N :- Do not execute remote command.不执行远程命令
--n :- redirect standard input to /dev/null.从定向输出到/dev/null&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Mac 下 MySQL 开启 bin log]]></title><description><![CDATA[MySQL for Mac 默认 bin log 是关闭的，使用以下命令查看 bin log 是否开启：Variable_nameValuelog_binOFF修改/etc/my.conf，没有文件就新建一个，添加以下配置：重启MySQL，再次查看 bin log…]]></description><link>http://nocoder.org/open-mysql-binlog-for-mac/</link><guid isPermaLink="false">http://nocoder.org/open-mysql-binlog-for-mac/</guid><pubDate>Mon, 23 Jul 2018 16:51:00 GMT</pubDate><content:encoded>&lt;p&gt;MySQL for Mac 默认 bin log 是关闭的，使用以下命令查看 bin log 是否开启：&lt;/p&gt;
+-n :- redirect standard input to /dev/null.从定向输出到/dev/null&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Mac 下 MySQL 开启 bin log]]></title><description><![CDATA[MySQL for Mac 默认 bin log 是关闭的，使用以下命令查看 bin log 是否开启： Variable_name Value log_bin OFF 修改/etc/my.conf，没有文件就新建一个，添加以下配置： 重启MySQL，再次查看 bin log…]]></description><link>http://nocoder.org/open-mysql-binlog-for-mac/</link><guid isPermaLink="false">http://nocoder.org/open-mysql-binlog-for-mac/</guid><pubDate>Mon, 23 Jul 2018 16:51:00 GMT</pubDate><content:encoded>&lt;p&gt;MySQL for Mac 默认 bin log 是关闭的，使用以下命令查看 bin log 是否开启：&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sql&quot;&gt;&lt;pre class=&quot;language-sql&quot;&gt;&lt;code class=&quot;language-sql&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;SHOW&lt;/span&gt; VARIABLES &lt;span class=&quot;token operator&quot;&gt;LIKE&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;log_bin&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -1336,7 +1740,7 @@ logger.debug(&amp;quot;Entry number: {} is {}&amp;quot;, i, entry[i]);&lt;/code&
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;mysqld&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
 log-bin&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;mysql-bin &lt;span class=&quot;token comment&quot;&gt;#添加这一行就ok&lt;/span&gt;
 binlog-format&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;ROW &lt;span class=&quot;token comment&quot;&gt;#选择row模式&lt;/span&gt;
-server_id&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;1 &lt;span class=&quot;token comment&quot;&gt;#配置mysql replaction需要定义，不能和canal的slaveId重复&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;token assign-left variable&quot;&gt;server_id&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#配置mysql replaction需要定义，不能和canal的slaveId重复&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;重启MySQL&lt;code class=&quot;language-text&quot;&gt;系统偏好设置-&amp;gt;MySQL-&amp;gt;Stop MySQL Server -&amp;gt; Start MySQL Server&lt;/code&gt;，再次查看 bin log 状态：&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sql&quot;&gt;&lt;pre class=&quot;language-sql&quot;&gt;&lt;code class=&quot;language-sql&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;SHOW&lt;/span&gt; VARIABLES &lt;span class=&quot;token operator&quot;&gt;LIKE&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;log_bin&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;table&gt;
@@ -1352,7 +1756,7 @@ server_id&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;1 &lt;span c
 &lt;td&gt;ON&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;</content:encoded></item><item><title><![CDATA[Docker Practice Notes 01]]></title><description><![CDATA[Docker的三个基本概念镜像（Image）容器（Container）仓库（Repository）Docker 镜像Docker…]]></description><link>http://nocoder.org/docker-practice-notes/</link><guid isPermaLink="false">http://nocoder.org/docker-practice-notes/</guid><pubDate>Fri, 13 Jul 2018 17:37:12 GMT</pubDate><content:encoded>&lt;h2&gt;Docker的三个基本概念&lt;/h2&gt;
+&lt;/table&gt;</content:encoded></item><item><title><![CDATA[Docker Practice Notes 01]]></title><description><![CDATA[Docker的三个基本概念 镜像（Image） 容器（Container） 仓库（Repository） Docker 镜像 Docker…]]></description><link>http://nocoder.org/docker-practice-notes/</link><guid isPermaLink="false">http://nocoder.org/docker-practice-notes/</guid><pubDate>Fri, 13 Jul 2018 17:37:12 GMT</pubDate><content:encoded>&lt;h2&gt;Docker的三个基本概念&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;镜像（Image）&lt;/li&gt;
 &lt;li&gt;容器（Container）&lt;/li&gt;
@@ -1418,16 +1822,16 @@ server_id&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;1 &lt;span c
 $ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; yum &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; docker-ce&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h4&gt;使用脚本自动安装&lt;/h4&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; -fsSL get.docker.com -o get-docker.sh
-$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; sh get-docker.sh --mirror Aliyun&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;sh&lt;/span&gt; get-docker.sh --mirror Aliyun&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;执行这个命令后，脚本就会自动的将一切准备工作做好，并且把Docker CE的Edge版本安装在系统中。&lt;/p&gt;
 &lt;h4&gt;启动Docker CE&lt;/h4&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl &lt;span class=&quot;token function&quot;&gt;enable&lt;/span&gt; docker
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl &lt;span class=&quot;token builtin class-name&quot;&gt;enable&lt;/span&gt; docker
 $ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl start docker&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h4&gt;建立docker 用户组&lt;/h4&gt;
 &lt;p&gt;建立docker组&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ sudo groupadd docker&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;将当前用户加入docker组&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;usermod&lt;/span&gt; -aG docker &lt;span class=&quot;token variable&quot;&gt;$USER&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;usermod&lt;/span&gt; -aG docker &lt;span class=&quot;token environment constant&quot;&gt;$USER&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;退出当前终端并重新登录&lt;/p&gt;
 &lt;h4&gt;测试Docker是否安装正确&lt;/h4&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ docker run hello-world&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -1873,28 +2277,18 @@ public int method(String p1) { ... }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;对于包外不可见的类和方法，如有需要，也是要使用Javadoc的。如果一个注释是用来定义一个类，方法，字段的整体目的或行为， 那么这个注释应该写成Javadoc，这样更统一更友好。&lt;/p&gt;
 &lt;h2&gt;后记&lt;/h2&gt;
 &lt;p&gt;本文档翻译自&lt;a href=&quot;http://google-styleguide.googlecode.com/svn/trunk/javaguide.html&quot;&gt;Google Java Style&lt;/a&gt;， 译者&lt;a href=&quot;http://weibo.com/hawstein&quot;&gt;@Hawstein&lt;/a&gt;。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[JMockit unit test]]></title><description><![CDATA[JMockit官网
-http://jmockit.github.io/tutorial.htmlJMockit中文教程
-https://legacy.gitbook.com/book/t3573393/jmockit-tutorial-chinese/detailsJMockit…]]></description><link>http://nocoder.org/jmockit-unit-test/</link><guid isPermaLink="false">http://nocoder.org/jmockit-unit-test/</guid><pubDate>Tue, 26 Jun 2018 01:18:54 GMT</pubDate><content:encoded>&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;JMockit官网
-&lt;a href=&quot;http://jmockit.github.io/tutorial.html&quot;&gt;http://jmockit.github.io/tutorial.html&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;JMockit中文教程
-&lt;a href=&quot;https://legacy.gitbook.com/book/t3573393/jmockit-tutorial-chinese/details&quot;&gt;https://legacy.gitbook.com/book/t3573393/jmockit-tutorial-chinese/details&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;JMockit: A beginner’s guide for Unit Testing
-&lt;a href=&quot;https://blog.knoldus.com/2017/12/30/jmockit-a-beginners-guide-for-unit-testing/&quot;&gt;https://blog.knoldus.com/2017/12/30/jmockit-a-beginners-guide-for-unit-testing/&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;JMockit 101
-&lt;a href=&quot;http://www.baeldung.com/jmockit-101&quot;&gt;http://www.baeldung.com/jmockit-101&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;A Guide to JMockit Expectations
-&lt;a href=&quot;http://www.baeldung.com/jmockit-expectations&quot;&gt;http://www.baeldung.com/jmockit-expectations&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
+http://jmockit.github.io/tutorial.html JMockit中文教程
+https://legacy.gitbook.com/book/t3573393/jmockit-tutorial-chinese/details…]]></description><link>http://nocoder.org/jmockit-unit-test/</link><guid isPermaLink="false">http://nocoder.org/jmockit-unit-test/</guid><pubDate>Tue, 26 Jun 2018 01:18:54 GMT</pubDate><content:encoded>&lt;ul&gt;
+&lt;li&gt;JMockit官网
+&lt;a href=&quot;http://jmockit.github.io/tutorial.html&quot;&gt;http://jmockit.github.io/tutorial.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;JMockit中文教程
+&lt;a href=&quot;https://legacy.gitbook.com/book/t3573393/jmockit-tutorial-chinese/details&quot;&gt;https://legacy.gitbook.com/book/t3573393/jmockit-tutorial-chinese/details&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;JMockit: A beginner’s guide for Unit Testing
+&lt;a href=&quot;https://blog.knoldus.com/2017/12/30/jmockit-a-beginners-guide-for-unit-testing/&quot;&gt;https://blog.knoldus.com/2017/12/30/jmockit-a-beginners-guide-for-unit-testing/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;JMockit 101
+&lt;a href=&quot;http://www.baeldung.com/jmockit-101&quot;&gt;http://www.baeldung.com/jmockit-101&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;A Guide to JMockit Expectations
+&lt;a href=&quot;http://www.baeldung.com/jmockit-expectations&quot;&gt;http://www.baeldung.com/jmockit-expectations&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[20条数据库设计最佳实践]]></title><description><![CDATA[翻译自 https://dzone.com/articles/20-database-design-best…]]></description><link>http://nocoder.org/20-database-design-best-practice/</link><guid isPermaLink="false">http://nocoder.org/20-database-design-best-practice/</guid><pubDate>Wed, 13 Jun 2018 05:29:29 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;翻译自 &lt;a href=&quot;https://dzone.com/articles/20-database-design-best&quot;&gt;https://dzone.com/articles/20-database-design-best&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1919,7 +2313,7 @@ https://legacy.gitbook.com/book/t3573393/jmockit-tutorial-chinese/detailsJMockit
 &lt;li&gt;由于性能问题，不得在频繁查询的表中定义图像和&lt;code class=&quot;language-text&quot;&gt;Blob&lt;/code&gt;数据列。 这些数据必须放在单独的表中，并且它们的指针可以在查询的表中使用。&lt;/li&gt;
 &lt;li&gt;标准化必须根据需要使用，以优化性能。 欠规范化会导致数据的过度重复，过度规范化会导致太多表中的过多连接。两者都会影响性能。&lt;/li&gt;
 &lt;li&gt;一定要为数据库设计留足够的时间，否则可能会花费比设计多成百上千倍的时间来维护设计不佳的数据库甚至需要重新设计。&lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[StrongLoop compare with pm2 and Forever]]></title><description><![CDATA[FeatureStrongLoop Process Managerpm2ForeverRun app locallyslc startpm2 start app.js -name fooforever start app.jsRestart on…]]></description><link>http://nocoder.org/strongloop-compare-with-pm2-and-forever/</link><guid isPermaLink="false">http://nocoder.org/strongloop-compare-with-pm2-and-forever/</guid><pubDate>Tue, 12 Jun 2018 10:02:30 GMT</pubDate><content:encoded>&lt;table&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[StrongLoop compare with pm2 and Forever]]></title><description><![CDATA[Feature StrongLoop Process Manager pm2 Forever Run app locally slc start pm2 start app.js -name foo forever start app.js Restart on failure…]]></description><link>http://nocoder.org/strongloop-compare-with-pm2-and-forever/</link><guid isPermaLink="false">http://nocoder.org/strongloop-compare-with-pm2-and-forever/</guid><pubDate>Tue, 12 Jun 2018 10:02:30 GMT</pubDate><content:encoded>&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt;Feature&lt;/th&gt;
@@ -2080,22 +2474,23 @@ https://legacy.gitbook.com/book/t3573393/jmockit-tutorial-chinese/detailsJMockit
 &lt;td&gt;No&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;</content:encoded></item><item><title><![CDATA[ubuntu 安装ElasticSearch过程中的问题记录]]></title><description><![CDATA[开放端口开启远程访问ERROR: bootstrap checks failedmax virtual memory areas vm.maxmapcount 65530 is too low, increase to at least 262144添加 vm…]]></description><link>http://nocoder.org/ubuntu-elasticsearch-install/</link><guid isPermaLink="false">http://nocoder.org/ubuntu-elasticsearch-install/</guid><pubDate>Thu, 07 Jun 2018 03:38:46 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;开放端口&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; iptables -I INPUT -p tcp -m tcp --dport 9200 -j ACCEPT &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/table&gt;</content:encoded></item><item><title><![CDATA[ubuntu 安装ElasticSearch过程中的问题记录]]></title><description><![CDATA[开放端口 开启远程访问  ERROR: bootstrap checks failed max virtual memory areas vm.maxmapcount 65530 is too low, increase to at least 262144  添加 vm…]]></description><link>http://nocoder.org/ubuntu-elasticsearch-install/</link><guid isPermaLink="false">http://nocoder.org/ubuntu-elasticsearch-install/</guid><pubDate>Thu, 07 Jun 2018 03:38:46 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;开放端口&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; iptables -I INPUT -p tcp -m tcp --dport &lt;span class=&quot;token number&quot;&gt;9200&lt;/span&gt; -j ACCEPT &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;开启远程访问&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;elasticsearch.yml&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;#Set the bind address to a specific IP (IPv4 or IPv6):
-network.host: 0.0.0.0
-# Set a custom port for HTTP:
-http.port: 9200&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;#Set the bind address to a specific IP (IPv4 or IPv6):&lt;/span&gt;
+network.host: &lt;span class=&quot;token number&quot;&gt;0.0&lt;/span&gt;.0.0
+&lt;span class=&quot;token comment&quot;&gt;# Set a custom port for HTTP:&lt;/span&gt;
+http.port: &lt;span class=&quot;token number&quot;&gt;9200&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;ERROR: bootstrap checks failed&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;max virtual memory areas vm.max&lt;em&gt;map&lt;/em&gt;count [65530] is too low, increase to at least [262144]&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;sudo vim /etc/sysctl.conf&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;添加 vm.max&lt;em&gt;map&lt;/em&gt;count=262144&lt;/p&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;sudo sysctl -p&lt;/code&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[反向代理]]></title><description><![CDATA[什么是反向代理反向代理（Reverse Proxy）方式是指用代理服务器来接受 internet 上的连接请求，然后将请求转发给内部网络上的服务器，并将从服务器上得到的结果返回给 internet…]]></description><link>http://nocoder.org/reverse-proxy/</link><guid isPermaLink="false">http://nocoder.org/reverse-proxy/</guid><pubDate>Wed, 06 Jun 2018 01:49:34 GMT</pubDate><content:encoded>&lt;h4&gt;什么是反向代理&lt;/h4&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;sudo sysctl -p&lt;/code&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[反向代理]]></title><description><![CDATA[反向代理（Reverse Proxy）方式是指用代理服务器来接受 internet 上的连接请求，然后将请求转发给内部网络上的服务器，并将从服务器上得到的结果返回给 internet…]]></description><link>http://nocoder.org/reverse-proxy/</link><guid isPermaLink="false">http://nocoder.org/reverse-proxy/</guid><pubDate>Wed, 06 Jun 2018 01:49:34 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;反向代理&lt;/strong&gt;（Reverse Proxy）方式是指用代理服务器来接受 internet 上的连接请求，然后将请求转发给内部网络上的服务器，并将从服务器上得到的结果返回给 internet 上请求连接的客户端，此时代理服务器对外就表现为一个反向代理服务器。&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;举个例子，一个用户访问 &lt;a href=&quot;http://www.example.com/readme&quot;&gt;http://www.example.com/readme&lt;/a&gt;，但是 www.example.com 上并不存在 readme 页面，它是偷偷从另外一台服务器上取回来，然后作为自己的内容返回给用户。但是用户并不知情这个过程。对用户来说，就像是直接从 www.example.com 获取 readme 页面一样。这里所提到的 www.example.com 这个域名对应的服务器就设置了反向代理功能。&lt;/p&gt;
 &lt;p&gt;反向代理服务器，对于客户端而言它就像是原始服务器，并且客户端不需要进行任何特别的设置。客户端向反向代理的命名空间(name-space)中的内容发送普通请求，接着反向代理将判断向何处(原始服务器)转交请求，并将获得的内容返回给客户端，就像这些内容原本就是它自己的一样。如下图所示：&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/jasonyang86/nocoder/master/data/images/201806/proxy.png&quot;&gt;&lt;/p&gt;
@@ -2154,10 +2549,10 @@ http.port: 9200&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;默认情况下，反向代理不会转发原始请求中的 Host 头部，如果需要转发，就需要加上这句：&lt;code class=&quot;language-text&quot;&gt;proxy_set_header Host $host;&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;除了上面提到的常用配置项，还有 proxy&lt;em&gt;redirect、proxy&lt;/em&gt;set&lt;em&gt;body、proxy&lt;/em&gt;limit&lt;em&gt;rate 等参数，具体用法可以到[Nginx 官网](&lt;a href=&quot;http://nginx.org/en/docs/http/ngx&quot;&gt;http://nginx.org/en/docs/http/ngx&lt;/a&gt;&lt;/em&gt;http&lt;em&gt;proxy&lt;/em&gt;module.html)查看。&lt;/p&gt;
 &lt;h4&gt;正向代理&lt;/h4&gt;
-&lt;p&gt;既然有反向代理，自然也有正向代理。简单来说，正向代理就像一个跳板，例如一个用户访问不了某网站（例如 &lt;code class=&quot;language-text&quot;&gt;www.google.com&lt;/code&gt;），但是他能访问一个代理服务器，这个代理服务器能访问 &lt;code class=&quot;language-text&quot;&gt;www.google.com&lt;/code&gt;，于是用户可以先连上代理服务器，告诉它需要访问的内容，代理服务器去取回来返回给用户。例如一些常见的翻墙工具、游戏代理就是利用正向代理的原理工作的，我们需要在这些正向代理工具上配置服务器的 IP 地址等信息。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[修改ubuntu1604源]]></title><description><![CDATA[修改ubuntu1604源阿里云]]></description><link>http://nocoder.org/ubuntu-1604-source/</link><guid isPermaLink="false">http://nocoder.org/ubuntu-1604-source/</guid><pubDate>Tue, 05 Jun 2018 07:27:38 GMT</pubDate><content:encoded>&lt;p&gt;修改ubuntu1604源&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;sudo vim /etc/apt/source.list&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;既然有反向代理，自然也有正向代理。简单来说，正向代理就像一个跳板，例如一个用户访问不了某网站（例如 &lt;code class=&quot;language-text&quot;&gt;www.google.com&lt;/code&gt;），但是他能访问一个代理服务器，这个代理服务器能访问 &lt;code class=&quot;language-text&quot;&gt;www.google.com&lt;/code&gt;，于是用户可以先连上代理服务器，告诉它需要访问的内容，代理服务器去取回来返回给用户。例如一些常见的翻墙工具、游戏代理就是利用正向代理的原理工作的，我们需要在这些正向代理工具上配置服务器的 IP 地址等信息。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[修改ubuntu1604源]]></title><description><![CDATA[修改ubuntu1604源 阿里云]]></description><link>http://nocoder.org/ubuntu-1604-source/</link><guid isPermaLink="false">http://nocoder.org/ubuntu-1604-source/</guid><pubDate>Tue, 05 Jun 2018 07:27:38 GMT</pubDate><content:encoded>&lt;p&gt;修改ubuntu1604源&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;vim&lt;/span&gt; /etc/apt/source.list&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3&gt;阿里云&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# deb cdrom:[Ubuntu 16.04 LTS _Xenial Xerus_ - Release amd64 (20160420.1)]/ xenial main restricted
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shel&quot;&gt;&lt;pre class=&quot;language-shel&quot;&gt;&lt;code class=&quot;language-shel&quot;&gt;# deb cdrom:[Ubuntu 16.04 LTS _Xenial Xerus_ - Release amd64 (20160420.1)]/ xenial main restricted
 deb-src http://archive.ubuntu.com/ubuntu xenial main restricted #Added by software-properties
 deb http://mirrors.aliyun.com/ubuntu/ xenial main restricted
 deb-src http://mirrors.aliyun.com/ubuntu/ xenial main restricted multiverse universe #Added by software-properties
@@ -2174,8 +2569,7 @@ deb-src http://archive.canonical.com/ubuntu xenial partner
 deb http://mirrors.aliyun.com/ubuntu/ xenial-security main restricted
 deb-src http://mirrors.aliyun.com/ubuntu/ xenial-security main restricted multiverse universe #Added by software-properties
 deb http://mirrors.aliyun.com/ubuntu/ xenial-security universe
-deb http://mirrors.aliyun.com/ubuntu/ xenial-security multiverse&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Running Your Spring Boot Application]]></title><description><![CDATA[19. Running Your ApplicationOne of the biggest advantages of packaging your application as a jar and using an embedded HTTP server is that…]]></description><link>http://nocoder.org/running-your-springboot-application/</link><guid isPermaLink="false">http://nocoder.org/running-your-springboot-application/</guid><pubDate>Fri, 01 Jun 2018 01:27:51 GMT</pubDate><content:encoded>&lt;h2&gt;19. Running Your Application&lt;/h2&gt;
-&lt;p&gt;One of the biggest advantages of packaging your application as a jar and using an embedded HTTP server is that you can run your application as you would any other. Debugging Spring Boot applications is also easy. You do not need any special IDE plugins or extensions.&lt;/p&gt;
+deb http://mirrors.aliyun.com/ubuntu/ xenial-security multiverse&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Running Your Spring Boot Application]]></title><description><![CDATA[One of the biggest advantages of packaging your application as a jar and using an embedded HTTP server is that you can run your application…]]></description><link>http://nocoder.org/running-your-springboot-application/</link><guid isPermaLink="false">http://nocoder.org/running-your-springboot-application/</guid><pubDate>Fri, 01 Jun 2018 01:27:51 GMT</pubDate><content:encoded>&lt;p&gt;One of the biggest advantages of packaging your application as a jar and using an embedded HTTP server is that you can run your application as you would any other. Debugging Spring Boot applications is also easy. You do not need any special IDE plugins or extensions.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -2223,11 +2617,10 @@ deb http://mirrors.aliyun.com/ubuntu/ xenial-security multiverse&lt;/code&gt;&lt
 &lt;p&gt;Since Spring Boot applications are just plain Java applications, JVM hot-swapping should work out of the box. JVM hot swapping is somewhat limited with the bytecode that it can replace. For a more complete solution, &lt;a href=&quot;https://zeroturnaround.com/software/jrebel/&quot;&gt;JRebel&lt;/a&gt; can be used.&lt;/p&gt;
 &lt;p&gt;The &lt;code class=&quot;language-text&quot;&gt;spring-boot-devtools&lt;/code&gt; module also includes support for quick application restarts. See the &lt;a href=&quot;https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-devtools.html&quot;&gt;Chapter 20, &lt;em&gt;Developer Tools&lt;/em&gt;&lt;/a&gt; section later in this chapter and the &lt;a href=&quot;https://docs.spring.io/spring-boot/docs/current/reference/html/howto-hotswapping.html&quot;&gt;Hot swapping “How-to”&lt;/a&gt; for details.&lt;/p&gt;
 &lt;hr&gt;</content:encoded></item><item><title><![CDATA[装饰器模式之真假美猴王]]></title><description><![CDATA[…]]></description><link>http://nocoder.org/monkey-decorator-pattern/</link><guid isPermaLink="false">http://nocoder.org/monkey-decorator-pattern/</guid><pubDate>Sat, 19 May 2018 17:49:08 GMT</pubDate><content:encoded>&lt;blockquote&gt;
-&lt;p&gt;本文以西游记中的“真假美猴王”为例，一起温习一下装饰器模式的使用场景及具体实现过程。   &lt;/p&gt;
+&lt;p&gt;本文以西游记中的“真假美猴王”为例，一起温习一下装饰器模式的使用场景及具体实现过程。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;真假美猴王的故事就不讲了，就算我标题党了吧。
-我们的目的是要把一个猴子类包装成孙悟空和六耳猕猴，但是不能改变猴子类本身的结构。
-简单描述一下装饰过程：&lt;/p&gt;
+&lt;p&gt;真假美猴王的故事就不讲了，我们的目的是要把一个猴子类包装成孙悟空和六耳猕猴，但是不能改变猴子类本身的结构。&lt;/p&gt;
+&lt;p&gt;简单描述一下装饰过程：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;首先定义一个猴子接口类，猴子具有&lt;code class=&quot;language-text&quot;&gt;introduce()&lt;/code&gt;方法，用于让猴子嗞哩哇啦的说话介绍自己；&lt;/li&gt;
 &lt;li&gt;定义一个普通的猴子类，实现猴子接口类，重载&lt;code class=&quot;language-text&quot;&gt;introduce()&lt;/code&gt;方法，介绍一下自己，例如：“我是个会说话的猴子！”；&lt;/li&gt;
@@ -2263,50 +2656,48 @@ deb http://mirrors.aliyun.com/ubuntu/ xenial-security multiverse&lt;/code&gt;&lt
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;4、定义具体的装饰类，用于将普通的猴子包装成孙悟空或六耳猕猴。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;先来一个孙悟空的装饰类&lt;code class=&quot;language-text&quot;&gt;SunWuKongDecorator.java&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;SunWuKongDecorator&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;AbstractMonkeyDecorator&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;SunWuKongDecorator&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;IMonkey&lt;/span&gt; monkey&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;monkey&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token annotation punctuation&quot;&gt;@Override&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;introduce&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token comment&quot;&gt;// 调用monkey自身的方法&lt;/span&gt;
-    monkey&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;introduce&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token comment&quot;&gt;// 调用装饰方法&lt;/span&gt;
-    &lt;span class=&quot;token function&quot;&gt;decorate&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;monkey&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;decorate&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;IMonkey&lt;/span&gt; monkey&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token class-name&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;out&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;我是美猴王，我会七十二变！&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token class-name&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;out&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;我师傅是大唐高僧！&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;再来一个六耳猕猴的装饰类&lt;code class=&quot;language-text&quot;&gt;SixEarsMonkeyDecorator.java&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;SixEarsMonkeyDecorator&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;AbstractMonkeyDecorator&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;SixEarsMonkeyDecorator&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;IMonkey&lt;/span&gt; monkey&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;monkey&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token annotation punctuation&quot;&gt;@Override&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;introduce&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token comment&quot;&gt;// 调用monkey自身的方法&lt;/span&gt;
-    monkey&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;introduce&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token comment&quot;&gt;// 调用装饰方法&lt;/span&gt;
-    &lt;span class=&quot;token function&quot;&gt;decorate&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;monkey&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;// 具体的装饰方法实现逻辑&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;decorate&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;IMonkey&lt;/span&gt; monkey&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token class-name&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;out&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;我才是美猴王，我会七十二变！&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token class-name&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;out&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;大唐高僧是我师傅！&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
+&lt;li&gt;先来一个孙悟空的装饰类&lt;code class=&quot;language-text&quot;&gt;SunWuKongDecorator.java&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;SunWuKongDecorator&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;AbstractMonkeyDecorator&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;SunWuKongDecorator&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;IMonkey&lt;/span&gt; monkey&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;monkey&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;token annotation punctuation&quot;&gt;@Override&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;introduce&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;// 调用monkey自身的方法&lt;/span&gt;
+        monkey&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;introduce&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;// 调用装饰方法&lt;/span&gt;
+        &lt;span class=&quot;token function&quot;&gt;decorate&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;monkey&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;decorate&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;IMonkey&lt;/span&gt; monkey&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token class-name&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;out&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;我是美猴王，我会七十二变！&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token class-name&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;out&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;我师傅是大唐高僧！&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;再来一个六耳猕猴的装饰类&lt;code class=&quot;language-text&quot;&gt;SixEarsMonkeyDecorator.java&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;SixEarsMonkeyDecorator&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;AbstractMonkeyDecorator&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;SixEarsMonkeyDecorator&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;IMonkey&lt;/span&gt; monkey&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;monkey&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;token annotation punctuation&quot;&gt;@Override&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;introduce&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;// 调用monkey自身的方法&lt;/span&gt;
+        monkey&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;introduce&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;// 调用装饰方法&lt;/span&gt;
+        &lt;span class=&quot;token function&quot;&gt;decorate&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;monkey&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;token comment&quot;&gt;// 具体的装饰方法实现逻辑&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;decorate&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;IMonkey&lt;/span&gt; monkey&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token class-name&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;out&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;我才是美猴王，我会七十二变！&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token class-name&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;out&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;大唐高僧是我师傅！&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;5、测试程序&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; args&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;token comment&quot;&gt;// 首先看看一个普通的猴子的自我介绍&lt;/span&gt;
@@ -2332,7 +2723,7 @@ deb http://mirrors.aliyun.com/ubuntu/ xenial-security multiverse&lt;/code&gt;&lt
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;使用装饰器前的猴子：我是一个会说话的猴子！
 使用孙悟空装饰器装饰后的猴子：我是一个会说话的猴子！我是美猴王，我会七十二变！我师傅是大唐高僧！
 使用六耳猕猴装饰器装饰后的猴子：我是一个会说话的猴子！我才是美猴王，我会七十二变！大唐高僧是我师傅！&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;总结：上面的例子中，我们并没有对Monkey类本身进行改造，而是采用装饰器包装的方式为Monkey增加了新的功能，这种方式可以动态的为实体类增加功能，比继承更灵活，且装饰类和被装饰类互不影响，可以各自扩展。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Integrate an H2 Database in Your Spring Boot App]]></title><description><![CDATA[原文地址 https://dzone.com/articles/integrate-h2-database-in-your-spring-boot-applicatIn this tutorial, we will be integrating the H2 database…]]></description><link>http://nocoder.org/Integrate-an-h2-database-in-your-springboot-app/</link><guid isPermaLink="false">http://nocoder.org/Integrate-an-h2-database-in-your-springboot-app/</guid><pubDate>Tue, 08 May 2018 17:26:47 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;总结：上面的例子中，我们并没有对Monkey类本身进行改造，而是采用装饰器包装的方式为Monkey增加了新的功能，这种方式可以动态的为实体类增加功能，比继承更灵活，且装饰类和被装饰类互不影响，可以各自扩展。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Integrate an H2 Database in Your Spring Boot App]]></title><description><![CDATA[原文地址 https://dzone.com/articles/integrate-h2-database-in-your-spring-boot-applicat In this tutorial, we will be integrating the H2 database…]]></description><link>http://nocoder.org/Integrate-an-h2-database-in-your-springboot-app/</link><guid isPermaLink="false">http://nocoder.org/Integrate-an-h2-database-in-your-springboot-app/</guid><pubDate>Tue, 08 May 2018 17:26:47 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;原文地址 &lt;a href=&quot;https://dzone.com/articles/integrate-h2-database-in-your-spring-boot-applicat&quot;&gt;https://dzone.com/articles/integrate-h2-database-in-your-spring-boot-applicat&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;In this tutorial, we will be integrating the H2 database in your Spring Boot application. Note that the H2 database is in the embedded mode.&lt;/p&gt;
@@ -2409,8 +2800,9 @@ spring&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;datasource&l
 		connection&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;disconnect&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  
 	&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;  
   
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[夜未眠-程序员的心声]]></title><description><![CDATA[引言我从2012年开始走向程序员之路，时至今日，一晃6年过去了，回过头来检视自己，发现自己太多太多的不足和和对自己的“欠账”。2016年初，我违背了自己当初的技术规划，阴差阳错的做了研发经理职位，从事了2年研发管理工作，期间coding…]]></description><link>http://nocoder.org/sleepless-in-java/</link><guid isPermaLink="false">http://nocoder.org/sleepless-in-java/</guid><pubDate>Mon, 23 Apr 2018 18:41:22 GMT</pubDate><content:encoded>&lt;h2&gt;引言&lt;/h2&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[夜未眠-程序员的心声]]></title><description><![CDATA[我从2012年开始走向程序员之路，时至今日，一晃6年过去了，回过头来检视自己，发现自己太多太多的不足和和对自己的“欠账”。2016年初，我违背了自己当初的技术规划，阴差阳错的做了研发经理职位，从事了2年研发管理工作，期间coding…]]></description><link>http://nocoder.org/sleepless-in-java/</link><guid isPermaLink="false">http://nocoder.org/sleepless-in-java/</guid><pubDate>Mon, 23 Apr 2018 18:41:22 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;我从2012年开始走向程序员之路，时至今日，一晃6年过去了，回过头来检视自己，发现自己太多太多的不足和和对自己的“欠账”。2016年初，我违背了自己当初的技术规划，阴差阳错的做了研发经理职位，从事了2年研发管理工作，期间coding的时间越来越少，对自己的职业规划也是越来越模糊，心里想到要改变现状但总是犹豫不决。但说实话，管理团队的经历让我变得更加成熟，领导教会了我很多管理技能和为人处事之道，沟通协调能力增强了很多。2018年初，终于下决心重回技术岗，加上自己的行业倾向，狠下心离开了待了近三年的公司。在梳理自己的技术技能后，发现自己需要补课的知识太多太多…&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;编程是我的一大兴趣爱好，写程序让我觉得很开心。就像蔡学镛老师说的：“我承认我很幸运，现在的我同时把程序设计当成茶余饭后的休闲活动、学习的题材，以及赚钱的工作。”&lt;/p&gt;
 &lt;p&gt;今晚失眠了，想起蔡老师的《Java夜未眠》，翻出来再读一读，做了一些笔记，供自己和程序员朋友们参考。&lt;/p&gt;
 &lt;h2&gt;《Java夜未眠》部分笔记&lt;/h2&gt;
@@ -2437,9 +2829,7 @@ DSL（领域特定语言）、软件工程、操作系统、虚拟机器等。
 &lt;/ul&gt;
 &lt;h3&gt;如何进入程序设计的领域&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;培养兴趣&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;培养兴趣&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;慎选程序语言&lt;/p&gt;
 &lt;ul&gt;
@@ -2454,18 +2844,14 @@ DSL（领域特定语言）、软件工程、操作系统、虚拟机器等。
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;使用适当的开发工具&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;使用适当的开发工具&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;多读好书，少上课&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;找志同道合的朋友组织“读书会”&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;加强英文阅读能力&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;加强英文阅读能力&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;求人之前，先求自己&lt;/p&gt;
 &lt;ul&gt;
@@ -2487,12 +2873,8 @@ DSL（领域特定语言）、软件工程、操作系统、虚拟机器等。
 &lt;li&gt;向旁延伸：学习不同应用领域的API，例如：多媒体、数据库、分布式运算等&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;写程序是很有趣的事情，可以把自己的想法付诸实现&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;每隔半年检阅自己这段时间的进步&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;写程序是很有趣的事情，可以把自己的想法付诸实现&lt;/li&gt;
+&lt;li&gt;每隔半年检阅自己这段时间的进步&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;职业敏感度&lt;/h3&gt;
 &lt;ul&gt;
@@ -2529,26 +2911,16 @@ DSL（领域特定语言）、软件工程、操作系统、虚拟机器等。
 &lt;/ul&gt;
 &lt;h3&gt;学习java&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;java 的原理     &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;学会java 语言
+&lt;li&gt;java 的原理     &lt;/li&gt;
+&lt;li&gt;学会java 语言
 《The Java spacification 》
-《inside in java virtual machine》&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;面相对象的思维
+《inside in java virtual machine》&lt;/li&gt;
+&lt;li&gt;面相对象的思维
 多看相关书 design pattern refactoring
 多看java API design 与implementation
-多写程序&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;API&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;开发工具的用法&lt;/p&gt;
-&lt;/li&gt;
+多写程序&lt;/li&gt;
+&lt;li&gt;API&lt;/li&gt;
+&lt;li&gt;开发工具的用法&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;垃圾回收&lt;/p&gt;
 &lt;ul&gt;
@@ -2589,18 +2961,14 @@ DSL（领域特定语言）、软件工程、操作系统、虚拟机器等。
      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;根据变量的内存，分为2种变量
+&lt;li&gt;根据变量的内存，分为2种变量
 heap variable 占用的内存在heap中，包括了 class variable，instance variable，array compnent，即上一程序的a b g[0]，这类变量会自动被JVM初始化成默认值
-stack variable 通常称为广义的局部变量 pan-local variable，占用的内存在stack中，这类变量包括了狭义的局部变量，exception-handler parameter，method                   parameter，constructor parameter 即上面程序的cdef，狭义的局部变量不会被JVM初始化默认值，使用者必须自行初始化该变量，但是 parameter类的变量会被JVM初始化成传入的     值。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;根据使用方式为变量分类
+stack variable 通常称为广义的局部变量 pan-local variable，占用的内存在stack中，这类变量包括了狭义的局部变量，exception-handler parameter，method                   parameter，constructor parameter 即上面程序的cdef，狭义的局部变量不会被JVM初始化默认值，使用者必须自行初始化该变量，但是 parameter类的变量会被JVM初始化成传入的     值。&lt;/li&gt;
+&lt;li&gt;根据使用方式为变量分类
 class variable
 instance variable
 广义的局部变量 包含上例的cdef
 数组视为对象，array compenent 视为对象的instance variable
-&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Java 二分查找法]]></title><description><![CDATA[…]]></description><link>http://nocoder.org/java-binary-search/</link><guid isPermaLink="false">http://nocoder.org/java-binary-search/</guid><pubDate>Wed, 18 Apr 2018 16:06:19 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;二分查找法是一种常见的对数值列表的查找方法。使用二分查找法的前提条件是数组中的元素必须已经排好序。二分查找法首先将关键字与数组的中间元素进行比较。考虑一下三种情况：&lt;/p&gt;
@@ -2691,7 +3059,7 @@ instance variable
         &lt;span class=&quot;token class-name&quot;&gt;BinarySearch&lt;/span&gt; bs &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;BinarySearch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
         &lt;span class=&quot;token class-name&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;out&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;bs&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getPos&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;array&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[一些Java相关的面试题整理]]></title><description><![CDATA[1. 数据库编码和服务端代码编码一致情况下，Get请求可能产生乱码的原因及解决办法？检查中间键tomcat、jetty对get请求的解码格式，默认是iso-8859-1的话，可能会产生乱码，解决办法修改中间键配置文件中URIEncoding解码格式。2. Struts…]]></description><link>http://nocoder.org/java-interview-questions/</link><guid isPermaLink="false">http://nocoder.org/java-interview-questions/</guid><pubDate>Wed, 11 Apr 2018 20:19:10 GMT</pubDate><content:encoded>&lt;h3&gt;1. 数据库编码和服务端代码编码一致情况下，Get请求可能产生乱码的原因及解决办法？&lt;/h3&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[一些Java相关的面试题整理]]></title><description><![CDATA[1. 数据库编码和服务端代码编码一致情况下，Get请求可能产生乱码的原因及解决办法？ 检查中间键tomcat、jetty对get请求的解码格式，默认是iso-8859-1的话，可能会产生乱码，解决办法修改中间键配置文件中URIEncoding解码格式。 2. Struts…]]></description><link>http://nocoder.org/java-interview-questions/</link><guid isPermaLink="false">http://nocoder.org/java-interview-questions/</guid><pubDate>Wed, 11 Apr 2018 20:19:10 GMT</pubDate><content:encoded>&lt;h3&gt;1. 数据库编码和服务端代码编码一致情况下，Get请求可能产生乱码的原因及解决办法？&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;检查中间键tomcat、jetty对get请求的解码格式，默认是iso-8859-1的话，可能会产生乱码，解决办法修改中间键配置文件中URIEncoding解码格式。&lt;/li&gt;
 &lt;/ul&gt;
@@ -2782,27 +3150,13 @@ instance variable
 &lt;h3&gt;7. Spring MVC 请求-响应流程&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/jasonyang86/nocoder/master/data/images/201804/springmvc%E8%AF%B7%E6%B1%82%E8%B7%9F%E8%B8%AA.png&quot;&gt;&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;浏览器发送请求的url以及其他信息&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;DispatcherServlet先会查询处理器映射（handler mapping），来确定发送给哪个控制器。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;确定合适的控制器后，将请求发送给选中的控制器&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;控制器完成逻辑处理后，将模型数据打包，并标示出输出的视图名，将请求连同模型和视图名发送回DispatcherServlet&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;DispatcherServlet使用视图解析器（view resolver）来将逻辑视图名匹配一个特定的视图实现（jsp或其它）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;DispatcherServlet匹配到对应的视图实现&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;视图使用模型数据渲染输出，这个输出通过响应对象传递给客户端&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;浏览器发送请求的url以及其他信息&lt;/li&gt;
+&lt;li&gt;DispatcherServlet先会查询处理器映射（handler mapping），来确定发送给哪个控制器。&lt;/li&gt;
+&lt;li&gt;确定合适的控制器后，将请求发送给选中的控制器&lt;/li&gt;
+&lt;li&gt;控制器完成逻辑处理后，将模型数据打包，并标示出输出的视图名，将请求连同模型和视图名发送回DispatcherServlet&lt;/li&gt;
+&lt;li&gt;DispatcherServlet使用视图解析器（view resolver）来将逻辑视图名匹配一个特定的视图实现（jsp或其它）&lt;/li&gt;
+&lt;li&gt;DispatcherServlet匹配到对应的视图实现&lt;/li&gt;
+&lt;li&gt;视图使用模型数据渲染输出，这个输出通过响应对象传递给客户端&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3&gt;8. 对 HTTP 协议无状态的理解&lt;/h3&gt;
 &lt;p&gt;对&lt;strong&gt;无状态&lt;/strong&gt;的理解&lt;/p&gt;
@@ -2872,7 +3226,7 @@ o&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&q
 
 o&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;notify&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; 
 
-o&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;notifyAll&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[多线程复习笔记]]></title><description><![CDATA[Java的重要功能之一就是内部支持多线程-在一个程序中允许同时运行多个任务。线程的概念线程是指一个任务从头到尾的执行流程。一个Java…]]></description><link>http://nocoder.org/multi-thread-notes/</link><guid isPermaLink="false">http://nocoder.org/multi-thread-notes/</guid><pubDate>Sat, 07 Apr 2018 15:11:04 GMT</pubDate><content:encoded>&lt;p&gt;Java的重要功能之一就是内部支持多线程-在一个程序中允许同时运行多个任务。&lt;/p&gt;
+o&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;notifyAll&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[多线程复习笔记]]></title><description><![CDATA[Java的重要功能之一就是内部支持多线程-在一个程序中允许同时运行多个任务。 线程的概念 线程是指一个任务从头到尾的执行流程。 一个Java…]]></description><link>http://nocoder.org/multi-thread-notes/</link><guid isPermaLink="false">http://nocoder.org/multi-thread-notes/</guid><pubDate>Sat, 07 Apr 2018 15:11:04 GMT</pubDate><content:encoded>&lt;p&gt;Java的重要功能之一就是内部支持多线程-在一个程序中允许同时运行多个任务。&lt;/p&gt;
 &lt;h2&gt;线程的概念&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;线程&lt;/strong&gt;是指一个任务从头到尾的执行流程。&lt;/p&gt;
@@ -3231,7 +3585,7 @@ e&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&q
 &lt;ul&gt;
 &lt;li&gt;《Java并发编程的艺术》&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Jenkins持续集成]]></title><description><![CDATA[使用jenkins进行持续集成
-https://www.liaoxuefeng.com/article/001463233913442cdb2d1bd1b1b42e3b0b29eb1ba736c5e000使用jenkins实现java web项目自动部署
+https://www.liaoxuefeng.com/article/001463233913442cdb2d1bd1b1b42e3b0b29eb1ba736c5e000 使用jenkins实现java web项目自动部署
 https…]]></description><link>http://nocoder.org/jenkins-ci/</link><guid isPermaLink="false">http://nocoder.org/jenkins-ci/</guid><pubDate>Tue, 03 Apr 2018 20:16:08 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;使用jenkins进行持续集成&lt;/strong&gt;
 &lt;a href=&quot;https://www.liaoxuefeng.com/article/001463233913442cdb2d1bd1b1b42e3b0b29eb1ba736c5e000&quot;&gt;https://www.liaoxuefeng.com/article/001463233913442cdb2d1bd1b1b42e3b0b29eb1ba736c5e000&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;使用jenkins实现java web项目自动部署&lt;/strong&gt;
@@ -3309,39 +3663,25 @@ localhost:8080访问
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;总结&lt;/strong&gt;
 冷静处事，三思后行，荣辱不惊。
-&lt;/p&gt;</content:encoded></item><item><title><![CDATA[mac卸载postgresql]]></title><description><![CDATA[这里针对的是 9.6 版本。如是其他版下面的仅供参考。1、如果是postgresql.app的形式，这个简单，跟其他app一样，删除app即可。2、如果是使用installer图形界面方式安装的。则需要打开终端命令行。3、执行
+&lt;/p&gt;</content:encoded></item><item><title><![CDATA[mac卸载postgresql]]></title><description><![CDATA[这里针对的是 9.6 版本。如是其他版下面的仅供参考。 1、如果是postgresql.app的形式，这个简单，跟其他app一样，删除app即可。 2、如果是使用installer图形界面方式安装的。则需要打开终端命令行。 3、执行
 
  可能会提示你输入密码。…]]></description><link>http://nocoder.org/mac-uninstall-postgresql/</link><guid isPermaLink="false">http://nocoder.org/mac-uninstall-postgresql/</guid><pubDate>Fri, 02 Feb 2018 17:23:41 GMT</pubDate><content:encoded>&lt;p&gt;这里针对的是 9.6 版本。如是其他版下面的仅供参考。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;1、如果是postgresql.app的形式，这个简单，跟其他app一样，删除app即可。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2、如果是使用installer图形界面方式安装的。则需要打开终端命令行。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;3、执行
+&lt;li&gt;1、如果是postgresql.app的形式，这个简单，跟其他app一样，删除app即可。&lt;/li&gt;
+&lt;li&gt;2、如果是使用installer图形界面方式安装的。则需要打开终端命令行。&lt;/li&gt;
+&lt;li&gt;3、执行
 &lt;code class=&quot;language-text&quot;&gt;open /Library/PostgreSQL/9.6/uninstall-postgresql.app&lt;/code&gt;
-可能会提示你输入密码。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;4、等待上一步执行完成后，删除postgresql文件夹&lt;br&gt;
+可能会提示你输入密码。&lt;/li&gt;
+&lt;li&gt;4、等待上一步执行完成后，删除postgresql文件夹&lt;br&gt;
 &lt;code class=&quot;language-text&quot;&gt;sudo rm -rf /Library/PostgreSQL&lt;/code&gt;
-可能会提示你输入密码&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;5、删除配置文件
+可能会提示你输入密码&lt;/li&gt;
+&lt;li&gt;5、删除配置文件
 &lt;code class=&quot;language-text&quot;&gt;sudo rm /etc/postgres-reg.ini&lt;/code&gt;
-可能会提示你输入密码&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;6、在用户管理中删除postgresql的用户， 系统偏好设置－－》用户及用户组。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;7、删除共享内存设置 （我没有做过特殊设置，所以我本机是没有这个文件的，如果有，可以删除。）
-&lt;code class=&quot;language-text&quot;&gt;sudo rm /etc/sysctl.conf&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Typecho数据库设计]]></title><description><![CDATA[主体结构单用户博客数据量如何Typecho的定位是单用户blog系统,在我们设计它的数据库之前有必要对个人博客系统的负载情况做一些评估.我有一个朋友,是一个勤奋的blogger,alexa排名在十万以上,日IP在10w左右.他选择了wordpress…]]></description><link>http://nocoder.org/typecho-database-design/</link><guid isPermaLink="false">http://nocoder.org/typecho-database-design/</guid><pubDate>Fri, 02 Feb 2018 16:34:57 GMT</pubDate><content:encoded>&lt;h2&gt;主体结构&lt;/h2&gt;
+可能会提示你输入密码&lt;/li&gt;
+&lt;li&gt;6、在用户管理中删除postgresql的用户， 系统偏好设置－－》用户及用户组。&lt;/li&gt;
+&lt;li&gt;7、删除共享内存设置 （我没有做过特殊设置，所以我本机是没有这个文件的，如果有，可以删除。）
+&lt;code class=&quot;language-text&quot;&gt;sudo rm /etc/sysctl.conf&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Typecho数据库设计]]></title><description><![CDATA[主体结构 单用户博客数据量如何 Typecho的定位是单用户blog系统,在我们设计它的数据库之前有必要对个人博客系统的负载情况做一些评估.我有一个朋友,是一个勤奋的blogger,alexa排名在十万以上,日IP在10w左右.他选择了wordpress…]]></description><link>http://nocoder.org/typecho-database-design/</link><guid isPermaLink="false">http://nocoder.org/typecho-database-design/</guid><pubDate>Fri, 02 Feb 2018 16:34:57 GMT</pubDate><content:encoded>&lt;h2&gt;主体结构&lt;/h2&gt;
 &lt;h3&gt;单用户博客数据量如何&lt;/h3&gt;
 &lt;p&gt;Typecho的定位是单用户blog系统,在我们设计它的数据库之前有必要对个人博客系统的负载情况做一些评估.我有一个朋友,是一个勤奋的blogger,alexa排名在十万以上,日IP在10w左右.他选择了wordpress作为主要系统,我们知道wordpress系统的一个主页乐观的估计也有20余次查询.但这依然无法阻挡这款程序的流行,在去年对全球top10 blogger所使用的系统调查中,wordpress比其他系统有着明显的优势.很显然,wordpress的负载是可控的.&lt;/p&gt;
 &lt;p&gt;当我们在设计一个单用户blog系统时,我们要时刻把&lt;em&gt;单用户&lt;/em&gt;这三个字放在心上.单用户意味着数据的查询是很集中的,当一个用户页面的访问量比较小时,他几乎感觉不到这多出的几次查询带来多少延迟.而当访问量比较大时,他必然有实力去升级他的系统,而由于单用户系统的查询比较集中,我们可以通过部署文件缓存或者内存对象缓存来达到减轻数据库压力的目的,或者增加数据库数量来达到平滑的系统扩容.因此单用户系统设计重点在于灵活性和结构化,当我们集中地暴露系统瓶颈,从另一个方面也可以集中精力去解决它.&lt;/p&gt;
@@ -3411,7 +3751,7 @@ localhost:8080访问
 &lt;li&gt;配置表 - options&lt;/li&gt;
 &lt;li&gt;用户表 - users&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;数据字典&lt;/h2&gt;
+&lt;h3&gt;数据字典&lt;/h3&gt;
 &lt;h4&gt;contents表&lt;/h4&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -3809,7 +4149,7 @@ localhost:8080访问
 &lt;/tbody&gt;
 &lt;/table&gt;</content:encoded></item><item><title><![CDATA[The Lazy Song]]></title><description><![CDATA[Song Title: The Lazy Song
 Artist: Bruno Mars
-Album: Doo-Wops and HooligansCapo on 4th fretCHORUS:
+Album: Doo-Wops and Hooligans Capo on 4th fret CHORUS:
 G D C
 Today I don’t feel like doing…]]></description><link>http://nocoder.org/the-lazy-song/</link><guid isPermaLink="false">http://nocoder.org/the-lazy-song/</guid><pubDate>Sat, 13 Jan 2018 20:51:17 GMT</pubDate><content:encoded>&lt;p&gt;Song Title: The Lazy Song
 Artist: Bruno Mars
@@ -3931,13 +4271,12 @@ Ooh hoo ooh hoo
 &lt;strong&gt;C&lt;/strong&gt;
 Hoo ooh ooh
 &lt;strong&gt;G&lt;/strong&gt;
-Nothing at all&lt;/p&gt;</content:encoded></item><item><title><![CDATA[windows下把exe程序注册成服务]]></title><description><![CDATA[windows下把exe程序注册成服务1、下载instsrv.exe和srvany.exe这两个文件，放在目录下2、管理员权限运行命令提示符，进入目录…]]></description><link>http://nocoder.org/windows-exe-to-service/</link><guid isPermaLink="false">http://nocoder.org/windows-exe-to-service/</guid><pubDate>Fri, 08 Dec 2017 06:51:49 GMT</pubDate><content:encoded>&lt;p&gt;windows下把exe程序注册成服务&lt;/p&gt;
-&lt;p&gt;1、下载instsrv.exe和srvany.exe这两个文件，放在&lt;code class=&quot;language-text&quot;&gt;C:\WINDOWS\SysWOW64&lt;/code&gt;目录下&lt;/p&gt;
+Nothing at all&lt;/p&gt;</content:encoded></item><item><title><![CDATA[windows下把exe程序注册成服务]]></title><description><![CDATA[1、下载instsrv.exe和srvany.exe这两个文件，放在目录下 2、管理员权限运行命令提示符，进入目录 3、命令提示符，打开注册表编辑器，找到刚刚注册的服务目录 在目录下新建一个项，在下新建一个，数值名称为，数值数据为可执行文件的路径，例如…]]></description><link>http://nocoder.org/windows-exe-to-service/</link><guid isPermaLink="false">http://nocoder.org/windows-exe-to-service/</guid><pubDate>Fri, 08 Dec 2017 06:51:49 GMT</pubDate><content:encoded>&lt;p&gt;1、下载instsrv.exe和srvany.exe这两个文件，放在&lt;code class=&quot;language-text&quot;&gt;C:\WINDOWS\SysWOW64&lt;/code&gt;目录下&lt;/p&gt;
 &lt;p&gt;2、管理员权限运行命令提示符，进入&lt;code class=&quot;language-text&quot;&gt;C:\WINDOWS\SysWOW64&lt;/code&gt;目录&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# 使用instsrv.exe将srvany.exe注册成服务,中间的srvany是服务名，完成后使用services.msc可以在服务列表里看到
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 使用instsrv.exe将srvany.exe注册成服务,中间的srvany是服务名，完成后使用services.msc可以在服务列表里看到&lt;/span&gt;
 instsrv.exe srvany srvany.exe&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;3、命令提示符&lt;code class=&quot;language-text&quot;&gt;regedit&lt;/code&gt;，打开注册表编辑器，找到刚刚注册的服务目录&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;计算机\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\srvany&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;计算机&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;HKEY_LOCAL_MACHINE&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;SYSTEM&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;CurrentControlSet&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;Services&lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;srvany&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;在目录下新建一个项&lt;code class=&quot;language-text&quot;&gt;Parameters&lt;/code&gt;，在&lt;code class=&quot;language-text&quot;&gt;Parameters&lt;/code&gt;下新建一个&lt;code class=&quot;language-text&quot;&gt;字符串值&lt;/code&gt;，数值名称为&lt;code class=&quot;language-text&quot;&gt;Application&lt;/code&gt;，数值数据为可执行文件的路径，例如&lt;code class=&quot;language-text&quot;&gt;D:\\local\\IntelliJIDEA_LicenseServer.exe&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;4、命令提示符&lt;code class=&quot;language-text&quot;&gt;services.msc&lt;/code&gt;，找到&lt;code class=&quot;language-text&quot;&gt;srvany&lt;/code&gt;服务启动即可&lt;/p&gt;
 &lt;p&gt;Game Over！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[不能改变，那就接受]]></title><description><![CDATA[…]]></description><link>http://nocoder.org/change-or-accept/</link><guid isPermaLink="false">http://nocoder.org/change-or-accept/</guid><pubDate>Thu, 07 Dec 2017 17:20:50 GMT</pubDate><content:encoded>&lt;blockquote&gt;
@@ -3974,9 +4313,9 @@ b的负责人很有耐心的解答着新员工的问题，时而给予表扬，b
 &lt;p&gt;优化一下让你愤怒的烂代码，或者找author谈谈重构，或者提交一个BUG。
 难吃的饭可以不吃，也可以请老板换一碗，或者我下次不光顾了。
 赞美一下你的同事、你的家人，他们会更加努力，展现出更好的自己。&lt;/p&gt;
-&lt;p&gt;最后，奉劝一下自己，要少说点脏话。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[mac osx ruby 升级]]></title><description><![CDATA[又偏离航线了，一开始就为了装个黑域，从安装adb到更新homebrew、再到更新ruby，我在瞎折腾的路上无法自拔。。。大概过程是这样
+&lt;p&gt;最后，奉劝一下自己，要少说点脏话。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[mac osx ruby 升级]]></title><description><![CDATA[又偏离航线了，一开始就为了装个黑域，从安装adb到更新homebrew、再到更新ruby，我在瞎折腾的路上无法自拔。。。 大概过程是这样
 首先安装android-platform-tools 
-这玩意就开始更新，看来我确实很久没用homebrew装软件了。然后蹦出来个这用rvm…]]></description><link>http://nocoder.org/mac-osx-ruby-upgrade/</link><guid isPermaLink="false">http://nocoder.org/mac-osx-ruby-upgrade/</guid><pubDate>Sun, 26 Nov 2017 16:23:48 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+这玩意就开始更新，看来我确实很久没用homebrew…]]></description><link>http://nocoder.org/mac-osx-ruby-upgrade/</link><guid isPermaLink="false">http://nocoder.org/mac-osx-ruby-upgrade/</guid><pubDate>Sun, 26 Nov 2017 16:23:48 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;又偏离航线了，一开始就为了装个黑域，从安装adb到更新homebrew、再到更新ruby，我在瞎折腾的路上无法自拔。。。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;大概过程是这样
@@ -4003,8 +4342,7 @@ b的负责人很有耐心的解答着新员工的问题，时而给予表扬，b
 adb devices
 &lt;span class=&quot;token class-name&quot;&gt;List&lt;/span&gt; of devices attached
 &lt;span class=&quot;token number&quot;&gt;1164111025&lt;/span&gt;	unauthorized&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Game Over！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[单例模式]]></title><description><![CDATA[单例模式单例模式（Singleton Pattern）是 Java…]]></description><link>http://nocoder.org/singleton-pattern/</link><guid isPermaLink="false">http://nocoder.org/singleton-pattern/</guid><pubDate>Tue, 10 Oct 2017 09:52:31 GMT</pubDate><content:encoded>&lt;h1&gt;单例模式&lt;/h1&gt;
-&lt;blockquote&gt;
+&lt;p&gt;Game Over！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[单例模式]]></title><description><![CDATA[单例模式（Singleton Pattern）是 Java…]]></description><link>http://nocoder.org/singleton-pattern/</link><guid isPermaLink="false">http://nocoder.org/singleton-pattern/</guid><pubDate>Tue, 10 Oct 2017 09:52:31 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;单例模式（Singleton Pattern）是 Java 中最简单的设计模式之一。这种类型的设计模式属于创建型模式，它提供了一种创建对象的最佳方式。
 这种模式涉及到一个单一的类，该类负责创建自己的对象，同时确保只有单个对象被创建。这个类提供了一种访问其唯一的对象的方式，可以直接访问，不需要实例化该类的对象。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -4399,7 +4737,7 @@ Border Color: Red
 
 Rectangle of red border
 Shape: Rectangle
-Border Color: Red&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[IntelliJ IDEA For Mac 快捷键]]></title><description><![CDATA[原文地址：http://www.cnblogs.com/wxd0108/p/5295017.htmlMac键盘符号和修饰键说明⌘ Command
+Border Color: Red&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[IntelliJ IDEA For Mac 快捷键]]></title><description><![CDATA[原文地址：http://www.cnblogs.com/wxd0108/p/5295017.html Mac键盘符号和修饰键说明 ⌘ Command
 ⇧ Shift
 ⌥ Option
 ⌃ Control
@@ -4619,7 +4957,7 @@ F6 移动文件到指定目录
 &lt;p&gt;⌥F1 显示当前文件选择目标弹出层，弹出层中有很多目标可以进行选择(如在代码编辑窗口可以选择显示该文件的Finder)&lt;/p&gt;
 &lt;p&gt;⌘F12 弹出当前文件结构层，可以在弹出的层上直接输入进行筛选（可用于搜索类中的方法）&lt;/p&gt;
 &lt;h2&gt;通用&lt;/h2&gt;
-&lt;p&gt;⌃⌘F 切换全屏模式&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring 数据库密码加密]]></title><description><![CDATA[我们一般都会把数据库的连接信息写在properties配置文件里，只要打开了配置文件，就能直接看到数据库的用户名密码等信息，一些项目会要求不能出现明文密码，接下来，简单三步，实现配置文件里的用户名和密码加密。一、加密解密工具类我以Base6…]]></description><link>http://nocoder.org/database-info-encode-and-decode/</link><guid isPermaLink="false">http://nocoder.org/database-info-encode-and-decode/</guid><pubDate>Tue, 18 Jul 2017 11:03:42 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;⌃⌘F 切换全屏模式&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring 数据库密码加密]]></title><description><![CDATA[我们一般都会把数据库的连接信息写在properties配置文件里，只要打开了配置文件，就能直接看到数据库的用户名密码等信息，一些项目会要求不能出现明文密码，接下来，简单三步，实现配置文件里的用户名和密码加密。 一、加密解密工具类 我以Base6…]]></description><link>http://nocoder.org/database-info-encode-and-decode/</link><guid isPermaLink="false">http://nocoder.org/database-info-encode-and-decode/</guid><pubDate>Tue, 18 Jul 2017 11:03:42 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;我们一般都会把数据库的连接信息写在properties配置文件里，只要打开了配置文件，就能直接看到数据库的用户名密码等信息，一些项目会要求不能出现明文密码，接下来，简单三步，实现配置文件里的用户名和密码加密。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3&gt;一、加密解密工具类&lt;/h3&gt;
@@ -4727,7 +5065,7 @@ maxWait&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class
 			&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;list&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
 		&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;property&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
 	&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;bean&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;OK了，就这三步，重启服务试试看！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Apache Commons Codec 加密解密]]></title><description><![CDATA[Apache Commons Codec 提供了常见的编码器和解码器，如Base64，Hex等。以下是使用Base64进行加密和解密示例代码：Apache Commons Codec 官方网址：http://commons.apache.org/proper/commons…]]></description><link>http://nocoder.org/apache-commons-codec/</link><guid isPermaLink="false">http://nocoder.org/apache-commons-codec/</guid><pubDate>Tue, 18 Jul 2017 10:52:08 GMT</pubDate><content:encoded>&lt;p&gt;Apache Commons Codec 提供了常见的编码器和解码器，如Base64，Hex等。&lt;/p&gt;
+&lt;p&gt;OK了，就这三步，重启服务试试看！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Apache Commons Codec 加密解密]]></title><description><![CDATA[Apache Commons Codec 提供了常见的编码器和解码器，如Base64，Hex等。 以下是使用Base64进行加密和解密示例代码： Apache Commons Codec 官方网址：http://commons.apache.org/proper/commons…]]></description><link>http://nocoder.org/apache-commons-codec/</link><guid isPermaLink="false">http://nocoder.org/apache-commons-codec/</guid><pubDate>Tue, 18 Jul 2017 10:52:08 GMT</pubDate><content:encoded>&lt;p&gt;Apache Commons Codec 提供了常见的编码器和解码器，如Base64，Hex等。&lt;/p&gt;
 &lt;p&gt;以下是使用Base64进行加密和解密示例代码：&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;token namespace&quot;&gt;org&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;nocoder&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;utils&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
@@ -4824,7 +5162,7 @@ maxWait&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class
     &lt;span class=&quot;token class-name&quot;&gt;ArchiveStatus&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
         &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; value&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[如何提升技术能力]]></title><description><![CDATA[今天看了一篇文章 Excel与微服务，有一些感触，Excel很土？微服务很潮？你知道GFS和Map/Reduce，但是你知道它们是为了解决什么问题的吗？是为了计算、存储、索引所有的网页（那个时候大概有8000万）。你知道SOA，但是你知道亚马逊什么时候上的SOA…]]></description><link>http://nocoder.org/Improve-technology/</link><guid isPermaLink="false">http://nocoder.org/Improve-technology/</guid><pubDate>Thu, 29 Jun 2017 02:53:17 GMT</pubDate><content:encoded>&lt;p&gt;今天看了一篇文章 &lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzA3MDMwOTcwMg==&amp;#x26;mid=2650004876&amp;#x26;idx=1&amp;#x26;sn=bc4df15cace45d179b901b50dcf3b8ea&amp;#x26;chksm=8739bfa5b04e36b3c95341f740b5e1ebfbcf311495eacdcf051357dd8e9029d90ae3359e2beb&amp;#x26;mpshare=1&amp;#x26;scene=1&amp;#x26;srcid=0628S9yRn3eMX8JwUYKWhpJA&amp;#x26;key=dd608d91fd702d6496c006a68fd69e39f774135c054a342d5a4841017e6ae4a3a06ef5a1afd4ea6980a7327880db71213a3a2f08bb0d537e9c92fbd3e09d3c4c8e87cd0d67a641e23456ccd342ae298f&amp;#x26;ascene=0&amp;#x26;uin=MTIwODAwNzAyMA%3D%3D&amp;#x26;devicetype=iMac+MacBookPro12%2C1+OSX+OSX+10.12.5+build(16F73)&quot;&gt;Excel与微服务&lt;/a&gt;，有一些感触，Excel很土？微服务很潮？&lt;/p&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[如何提升技术能力]]></title><description><![CDATA[今天看了一篇文章 Excel与微服务，有一些感触，Excel很土？微服务很潮？ 你知道GFS和Map/Reduce，但是你知道它们是为了解决什么问题的吗？是为了计算、存储、索引所有的网页（那个时候大概有8000万）。你知道SOA，但是你知道亚马逊什么时候上的SOA…]]></description><link>http://nocoder.org/Improve-technology/</link><guid isPermaLink="false">http://nocoder.org/Improve-technology/</guid><pubDate>Thu, 29 Jun 2017 02:53:17 GMT</pubDate><content:encoded>&lt;p&gt;今天看了一篇文章 &lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzA3MDMwOTcwMg==&amp;#x26;mid=2650004876&amp;#x26;idx=1&amp;#x26;sn=bc4df15cace45d179b901b50dcf3b8ea&amp;#x26;chksm=8739bfa5b04e36b3c95341f740b5e1ebfbcf311495eacdcf051357dd8e9029d90ae3359e2beb&amp;#x26;mpshare=1&amp;#x26;scene=1&amp;#x26;srcid=0628S9yRn3eMX8JwUYKWhpJA&amp;#x26;key=dd608d91fd702d6496c006a68fd69e39f774135c054a342d5a4841017e6ae4a3a06ef5a1afd4ea6980a7327880db71213a3a2f08bb0d537e9c92fbd3e09d3c4c8e87cd0d67a641e23456ccd342ae298f&amp;#x26;ascene=0&amp;#x26;uin=MTIwODAwNzAyMA%3D%3D&amp;#x26;devicetype=iMac+MacBookPro12%2C1+OSX+OSX+10.12.5+build(16F73)&quot;&gt;Excel与微服务&lt;/a&gt;，有一些感触，Excel很土？微服务很潮？&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;你知道GFS和Map/Reduce，但是你知道它们是为了解决什么问题的吗？是为了计算、存储、索引所有的网页（那个时候大概有8000万）。你知道SOA，但是你知道亚马逊什么时候上的SOA吗？那时候亚马逊已经有7800名雇员，年营业额超过30亿美元了。你只知道数据库集群、NoSQL，但是你知道吗？Stack Exchange在2016年，面对2亿的日访问量，只有4台SQLServer……&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -4834,7 +5172,7 @@ maxWait&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzA3MDMwOTcwMg==&amp;#x26;mid=2650004876&amp;#x26;idx=1&amp;#x26;sn=bc4df15cace45d179b901b50dcf3b8ea&amp;#x26;chksm=8739bfa5b04e36b3c95341f740b5e1ebfbcf311495eacdcf051357dd8e9029d90ae3359e2beb&amp;#x26;mpshare=1&amp;#x26;scene=1&amp;#x26;srcid=0628S9yRn3eMX8JwUYKWhpJA&amp;#x26;key=dd608d91fd702d6496c006a68fd69e39f774135c054a342d5a4841017e6ae4a3a06ef5a1afd4ea6980a7327880db71213a3a2f08bb0d537e9c92fbd3e09d3c4c8e87cd0d67a641e23456ccd342ae298f&amp;#x26;ascene=0&amp;#x26;uin=MTIwODAwNzAyMA%3D%3D&amp;#x26;devicetype=iMac+MacBookPro12%2C1+OSX+OSX+10.12.5+build(16F73)&quot;&gt;余晟以为&lt;/a&gt; : 微服务很新，微服务很潮，微服务很高大上。我在面试架构师的时候，很多候选人说到微服务，都可以侃侃而谈，各种新鲜的名词、概念、框架止不住地蹦出来，却没法回答几个问题：为什么微服务会崛起？什么时候应当实行微服务？实行微服务要注意什么？甚至，连微服务与SOA的关系是什么都搞不清楚。
 要知道，架构师并不是“框架和解决方案推广落地人员”，他是需要做决策的，软件开发中，架构决策对系统的影响往往是至关重要的，一旦出现问题，后果可能相当严重。所以，合格的架构师对于微服务，不但需要了解现成的方案和概念，更应该真正的问题是什么，决策的依据是什么，然后才能知道，自己的决策是否合理&lt;/p&gt;
-&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Java8 lambda表达式10个示例]]></title><description><![CDATA[本文由 ImportNew - lemeilleur 翻译自 javarevisited。欢迎加入翻译小组。转载请见文末要求。Java 8 刚于几周前发布，日期是2014年3月18日，这次开创性的发布在Java…]]></description><link>http://nocoder.org/10-java8-lambda-samples/</link><guid isPermaLink="false">http://nocoder.org/10-java8-lambda-samples/</guid><pubDate>Sat, 10 Jun 2017 04:36:20 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Java8 lambda表达式10个示例]]></title><description><![CDATA[本文由 ImportNew - lemeilleur 翻译自 javarevisited。欢迎加入翻译小组。转载请见文末要求。 Java 8 刚于几周前发布，日期是2014年3月18日，这次开创性的发布在Java…]]></description><link>http://nocoder.org/10-java8-lambda-samples/</link><guid isPermaLink="false">http://nocoder.org/10-java8-lambda-samples/</guid><pubDate>Sat, 10 Jun 2017 04:36:20 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;本文由 ImportNew - lemeilleur 翻译自 javarevisited。欢迎加入翻译小组。转载请见文末要求。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Java 8 刚于几周前发布，日期是2014年3月18日，这次开创性的发布在Java社区引发了不少讨论，并让大家感到激动。特性之一便是随同发布的lambda表达式，它将允许我们将行为传到函数里。在Java 8之前，如果想将行为传入函数，仅有的选择就是匿名类，需要6行代码。而定义行为最重要的那行代码，却混在中间不够突出。Lambda表达式取代了匿名类，取消了模板，允许用函数式风格编写代码。这样有时可读性更好，表达更清晰。在Java生态系统中，函数式表达与对面向对象的全面支持是个激动人心的进步。将进一步促进并行第三方库的发展，充分利用多核CPU。尽管业界需要时间来消化Java 8，但我认为任何严谨的Java开发者都不应忽视此次Java发布的核心特性，即lambda表达式、函数式接口、流API、默认方法和新的Date以及Time API。作为开发人员，我发现学习和掌握lambda表达式的最佳方法就是勇于尝试，尽可能多练习lambda表达式例子。鉴于受Java 8发布的影响最大的是Java集合框架（Java Collections framework），所以最好练习流API和lambda表达式，用于对列表（Lists）和集合（Collections）数据进行提取、过滤和排序。我一直在进行关于Java 8的写作，过去也曾分享过一些资源来帮助大家掌握Java 8。本文分享在代码中最有用的10个lambda表达式的使用方法，这些例子都短小精悍，将帮助你快速学会lambda表达式。&lt;/p&gt;
@@ -5084,8 +5422,8 @@ primes.forEach(element -&amp;gt; { System.out.println(factor*element); });&lt;/c
 作者： lemeilleur&lt;/p&gt;
 &lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[正则表达式]]></title><description><![CDATA[正则表达式在线测试工具 http://tool.chinaz.com/regex…]]></description><link>http://nocoder.org/regular-expression/</link><guid isPermaLink="false">http://nocoder.org/regular-expression/</guid><pubDate>Sun, 30 Apr 2017 05:32:45 GMT</pubDate><content:encoded>&lt;p&gt;正则表达式在线测试工具 &lt;a href=&quot;http://tool.chinaz.com/regex/&quot;&gt;http://tool.chinaz.com/regex/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;上方的文本区是输入正则表达式的，下方的文本区域是用来输入目标文字的。
-在目标区域输入 &lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;138-0013-8000&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+在目标区域输入&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token number&quot;&gt;138&lt;/span&gt;-0013-8000&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;字符串字面值&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;字符串字面值，就是字面上看起来是什么就是什么。&lt;/p&gt;
@@ -5107,7 +5445,7 @@ primes.forEach(element -&amp;gt; { System.out.println(factor*element); });&lt;/c
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;(\d)&lt;/code&gt;匹配第一个数字并将其捕获&lt;/li&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;\d&lt;/code&gt;匹配第二个数字，但没有捕获，因为没有括号&lt;/li&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;\1&lt;/code&gt;对捕获的数字进行反向引用&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[燃起的烟火照亮谁的脸]]></title><description><![CDATA[近期的四个项目都发布了，终于可以松一口气，暂时过一个轻松的周末，却兴奋的睡不着觉，不如写点啥吧。带上耳机听着熟悉的老歌，神游一下，I like this feel…]]></description><link>http://nocoder.org/whose-face-is-lit-by-the-firework/</link><guid isPermaLink="false">http://nocoder.org/whose-face-is-lit-by-the-firework/</guid><pubDate>Fri, 21 Apr 2017 05:36:48 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[燃起的烟火照亮谁的脸]]></title><description><![CDATA[近期的四个项目都发布了，终于可以松一口气，暂时过一个轻松的周末，却兴奋的睡不着觉，不如写点啥吧。 带上耳机听着熟悉的老歌，神游一下，I like this feel…]]></description><link>http://nocoder.org/whose-face-is-lit-by-the-firework/</link><guid isPermaLink="false">http://nocoder.org/whose-face-is-lit-by-the-firework/</guid><pubDate>Fri, 21 Apr 2017 05:36:48 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;近期的四个项目都发布了，终于可以松一口气，暂时过一个轻松的周末，却兴奋的睡不着觉，不如写点啥吧。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;带上耳机听着熟悉的老歌，神游一下，I like this feel，感觉突然忘记了现在，回想起了初中时代，想起了鞋盒子的各种磁带，用铅笔倒带，卧室墙上羽泉的海报，写字台上被我刻着“稳扎稳打，无往不胜”，写作业的时候却一直在听音乐，哈哈，随声听里“…蓝的、白的、红的、黄的，从来没感觉它有如此强烈…”。记得有一次妈妈查岗我写作业，我听到动静忙把耳机往抽屉塞，后来发现关抽屉的时候把耳机给夹坏了，我是那个伤心，后来接线接了好久，也没弄好。&lt;/p&gt;
@@ -5119,8 +5457,9 @@ primes.forEach(element -&amp;gt; { System.out.println(factor*element); });&lt;/c
 &lt;p&gt;大学的时候开始学吉他，宿舍6个人一个出了三十块钱，在北京昌平一家小琴行买了一把琴，送了本教材，先开始是轮换着把玩，后来就成了我专属的了，哈哈。&lt;/p&gt;
 &lt;p&gt;这时候已经不用买磁带了哈，mp3，mp4，mp5都出来了。。。其实我还是很怀念磁带机的感觉，很机械，很酷，有没有。&lt;/p&gt;
 &lt;p&gt;好了，先不扯了，半夜一点半了，要早点睡觉，有空再继续神游吧。&lt;/p&gt;
-&lt;p&gt;写这些字的时候，我正在听的是羽泉2001年的专辑《热爱》，现在听还是觉得好听的不得了，大爱，推荐一下。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Python 两个经典递归：阶乘和幂]]></title><description><![CDATA[递归简单说来就是调用自身的意思。来看一个幽默的定义：recursion \ri-‘k&r-zh&n\ n : see recursion
-（递归名词：见递归）一、计算n的阶乘的阶乘定义为 。使用循环实现首先，把数字赋值给，然后依次与～的数相乘，最后返回结果。阶乘的数学定义：…]]></description><link>http://nocoder.org/python-factorail/</link><guid isPermaLink="false">http://nocoder.org/python-factorail/</guid><pubDate>Sun, 09 Apr 2017 03:49:33 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;递归&lt;/strong&gt;简单说来就是调用自身的意思。&lt;/p&gt;
+&lt;p&gt;写这些字的时候，我正在听的是羽泉2001年的专辑《热爱》，现在听还是觉得好听的不得了，大爱，推荐一下。&lt;/p&gt;
+&lt;p&gt;Game Over！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Python 两个经典递归：阶乘和幂]]></title><description><![CDATA[递归简单说来就是调用自身的意思。 来看一个幽默的定义： recursion \ri-‘k&r-zh&n\ n : see recursion
+（递归名词：见递归） 一、计算n…]]></description><link>http://nocoder.org/python-factorail/</link><guid isPermaLink="false">http://nocoder.org/python-factorail/</guid><pubDate>Sun, 09 Apr 2017 03:49:33 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;递归&lt;/strong&gt;简单说来就是调用自身的意思。&lt;/p&gt;
 &lt;p&gt;来看一个幽默的定义：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;recursion&lt;/strong&gt; &lt;em&gt;\ri-‘k&amp;#x26;r-zh&amp;#x26;n\&lt;/em&gt; n : see recursion
@@ -5167,7 +5506,7 @@ primes.forEach(element -&amp;gt; { System.out.println(factor*element); });&lt;/c
   &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; n &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
   &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; power&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; n&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[linux下安装jdk]]></title><description><![CDATA[下载jdk.tar.gz，创建java目录然后将下载到压缩包拷贝到java文件夹中，命令行：进入jdk源码包所在目录然后进入java目录，命令行：解压压缩包，命令行：然后可以把压缩包删除，命令行：3、设置dk环境变量这里采用全局设置方法，就是修改etc/profile…]]></description><link>http://nocoder.org/linux-install-jdk/</link><guid isPermaLink="false">http://nocoder.org/linux-install-jdk/</guid><pubDate>Sat, 08 Apr 2017 05:29:29 GMT</pubDate><content:encoded>&lt;p&gt;下载jdk.tar.gz，创建java目录&lt;/p&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; power&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; n&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[linux下安装jdk]]></title><description><![CDATA[下载jdk.tar.gz，创建java目录 然后将下载到压缩包拷贝到java文件夹中，命令行： 进入jdk源码包所在目录 然后进入java目录，命令行： 解压压缩包，命令行： 然后可以把压缩包删除，命令行： 3、设置dk环境变量 这里采用全局设置方法，就是修改etc…]]></description><link>http://nocoder.org/linux-install-jdk/</link><guid isPermaLink="false">http://nocoder.org/linux-install-jdk/</guid><pubDate>Sat, 08 Apr 2017 05:29:29 GMT</pubDate><content:encoded>&lt;p&gt;下载jdk.tar.gz，创建java目录&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;sudo mkdir /usr/local/java&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;然后将下载到压缩包拷贝到java文件夹中，命令行：&lt;/p&gt;
 &lt;p&gt;进入jdk源码包所在目录&lt;/p&gt;
@@ -5196,7 +5535,7 @@ export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar&lt;/code&gt;&l
 成功则显示如下&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;java version &amp;quot;1.7.0_45&amp;quot;
 Java(TM) SE Runtime Environment (build 1.7.0_45-b18)
-Java HotSpot(TM) 64-Bit Server VM (build 24.45-b08, mixed mode)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[JavaScript基础]]></title><description><![CDATA[维基百科的描述JavaScript，一种直译式脚本语言，是一种动态类型、基于原型的语言，内置支持类别。它的解释器被称为JavaScript引擎，为浏览器的一部分，广泛用于客户端的脚本语言，最早是在HTML网页上使用，用来给HTML网页增加动态功能。然而现在JavaScript…]]></description><link>http://nocoder.org/javascript-base-knowleges/</link><guid isPermaLink="false">http://nocoder.org/javascript-base-knowleges/</guid><pubDate>Sat, 08 Apr 2017 05:26:35 GMT</pubDate><content:encoded>&lt;h2&gt;维基百科的描述&lt;/h2&gt;
+Java HotSpot(TM) 64-Bit Server VM (build 24.45-b08, mixed mode)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[JavaScript基础]]></title><description><![CDATA[维基百科的描述 JavaScript，一种直译式脚本语言，是一种动态类型、基于原型的语言，内置支持类别。它的解释器被称为JavaScript引擎，为浏览器的一部分，广泛用于客户端的脚本语言，最早是在HTML网页上使用，用来给HTML网页增加动态功能。然而现在JavaScript…]]></description><link>http://nocoder.org/javascript-base-knowleges/</link><guid isPermaLink="false">http://nocoder.org/javascript-base-knowleges/</guid><pubDate>Sat, 08 Apr 2017 05:26:35 GMT</pubDate><content:encoded>&lt;h2&gt;维基百科的描述&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;JavaScript，一种直译式脚本语言，是一种动态类型、基于原型的语言，内置支持类别。它的解释器被称为JavaScript引擎，为浏览器的一部分，广泛用于客户端的脚本语言，最早是在HTML网页上使用，用来给HTML网页增加动态功能。然而现在JavaScript也可被用于网络服务器，如Node.js。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -5772,9 +6111,9 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;f_strict&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;use strict&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; foo2 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;f_strict&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 ReferenceError&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; foo2 is not defined&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Linux防火墙开放端口号]]></title><description><![CDATA[Linux防火墙开放端口号]]></description><link>http://nocoder.org/linux-open-port/</link><guid isPermaLink="false">http://nocoder.org/linux-open-port/</guid><pubDate>Sat, 08 Apr 2017 05:24:38 GMT</pubDate><content:encoded>&lt;p&gt;Linux防火墙开放端口号&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;iptables -I INPUT -p tcp -m tcp --dport 5432 -j ACCEPT&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Python 另一个经典递归：二分法查找]]></title><description><![CDATA[先来玩个数字游戏，我从1～100中选一个整数，你来猜中这个数字。如果你运气好的话可能十几次就猜中了，也可能是耐心的提问了我100次后。但其实你只需要提问7次就可以找到答案。举个例子，假设我选的数字是。问：这个数是否大于50？
-答：是问：大于75？
-答：是问：大于8…]]></description><link>http://nocoder.org/python-binary-search/</link><guid isPermaLink="false">http://nocoder.org/python-binary-search/</guid><pubDate>Fri, 07 Apr 2017 04:42:47 GMT</pubDate><content:encoded>&lt;p&gt;先来玩个数字游戏，我从1～100中选一个整数，你来猜中这个数字。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;iptables -I INPUT -p tcp -m tcp --dport &lt;span class=&quot;token number&quot;&gt;5432&lt;/span&gt; -j ACCEPT&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Python 另一个经典递归：二分法查找]]></title><description><![CDATA[先来玩个数字游戏，我从1～100中选一个整数，你来猜中这个数字。 如果你运气好的话可能十几次就猜中了，也可能是耐心的提问了我100次后。 但其实你只需要提问7次就可以找到答案。 举个例子，假设我选的数字是。 问：这个数是否大于50？
+答：是 问：大于75？
+答：是 问：大于8…]]></description><link>http://nocoder.org/python-binary-search/</link><guid isPermaLink="false">http://nocoder.org/python-binary-search/</guid><pubDate>Fri, 07 Apr 2017 04:42:47 GMT</pubDate><content:encoded>&lt;p&gt;先来玩个数字游戏，我从1～100中选一个整数，你来猜中这个数字。&lt;/p&gt;
 &lt;p&gt;如果你运气好的话可能十几次就猜中了，也可能是耐心的提问了我100次后。&lt;/p&gt;
 &lt;p&gt;但其实你只需要提问7次就可以找到答案。&lt;/p&gt;
 &lt;p&gt;举个例子，假设我选的数字是&lt;code class=&quot;language-text&quot;&gt;86&lt;/code&gt;。&lt;/p&gt;
