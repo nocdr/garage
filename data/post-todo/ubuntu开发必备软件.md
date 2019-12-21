@@ -5,7 +5,7 @@ ubuntu 1804 必备开发工具
 - vim
 - visual studio code
 - shutter
-- deepin-qq
+- deepin-wine
 - xmind
 - wps
 - chrome
