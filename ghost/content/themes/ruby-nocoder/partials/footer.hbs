@@ -1,0 +1,29 @@
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-inner">
+            <div class="social">
+                <a class="social-item social-item-github"
+                        href="https://github.com/nocdr" target="_blank"
+                        rel="noopener noreferrer" aria-label="Github">
+                        <i class="icon icon-github-circle"></i>
+                    </a>
+
+                {{#if @site.twitter}}
+                    <a class="social-item social-item-twitter"
+                        href="{{twitter_url @site.twitter}}" target="_blank"
+                        rel="noopener noreferrer" aria-label="Twitter">
+                        <i class="icon icon-twitter"></i>
+                    </a>
+                {{/if}}
+                <a class="social-item social-item-rss"
+                    href="https://feedly.com/i/subscription/feed/{{@site.url}}/rss/"
+                    target="_blank" rel="noopener noreferrer" aria-label="RSS">
+                    <i class="icon icon-rss"></i>
+                </a>
+            </div>
+            <div class="copyright">
+                Powered by <a href="https://ghost.org/" target="_blank">Ghost</a>
+            </div>
+        </div>
+    </div>
+</footer>
